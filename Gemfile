@@ -7,7 +7,6 @@ gem 'jquery-rails'
 gem 'rails', '4.0.0'
 gem 'recursive-open-struct'
 gem 'sass-rails', '~> 4.0.0'
-gem 'sqlite3'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'zurb-foundation'
@@ -16,6 +15,12 @@ gem 'haml-rails'
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
   gem 'pry'
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
 end
 
 group :test do
