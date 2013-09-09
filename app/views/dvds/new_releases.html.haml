@@ -1,10 +1,9 @@
-.row
-  %h2 New DVD Releases
+%h2 New DVD Releases
 
-  %ul.small-block-grid-2.large-block-grid-4
-    - @movies.each do |movie|
-      %li
-        .movie-poster
-          %a.th.radius{'href' => movie_path(movie.id)}
-            =image_tag movie.posters.detailed
-          .movie-controls
+%ul.small-block-grid-2.large-block-grid-4
+  - @movies.each do |movie|
+    %li
+      .movie-poster
+        %a.th.radius{'href' => movie_path(movie.id)}
+          =image_tag movie.posters.detailed
+        .movie-controls
