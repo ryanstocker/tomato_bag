@@ -1,4 +1,9 @@
 TomatoBag::Application.routes.draw do
+  resources :dvds do
+    collection do
+      get 'new_releases'
+    end
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,11 @@
+.row
+  %h2 New DVD Releases
+
+  %ul.small-block-grid-2.large-block-grid-4
+    - @movies.each do |movie|
+      %li
+        .movie-poster
+          %a.th.radius{'href' => '#'}
+            =image_tag movie.posters.detailed
+          .movie-controls
+            Edit

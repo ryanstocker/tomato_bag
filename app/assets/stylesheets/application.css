@@ -12,3 +12,6 @@
  *= require foundation_and_overrides
  *= require_tree .
  */
+
+.movie-controls { display:none; }
+.movie-poster:hover .movie-controls { display:block; }
