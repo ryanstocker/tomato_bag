@@ -1,4 +1,5 @@
 TomatoBag::Application.routes.draw do
+  devise_for :users
   resources :dvds do
     collection do
       get 'new_releases'
