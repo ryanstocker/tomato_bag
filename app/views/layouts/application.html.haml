@@ -18,5 +18,6 @@
     = csrf_meta_tags
   %body
     .row
+      = render 'shared/notices'
       = yield
     = javascript_include_tag "application"
