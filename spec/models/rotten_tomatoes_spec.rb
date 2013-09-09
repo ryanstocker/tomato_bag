@@ -38,6 +38,7 @@ describe RottenTomatoes do
     let(:movie_id)        { 770672122 } #Toy Story 3
     let(:movie_info_url)  { "http://api.rottentomatoes.com/api/public/v1.0/movies/#{movie_id}.json?apikey=123" }
     let(:toy_story_3)     { File.read('spec/fixtures/movies/toy_story_3.json') }
+    let(:movie)           { rt.find_movie(movie_id) }
 
     describe 'getting info for a single movie' do
 
@@ -50,6 +51,14 @@ describe RottenTomatoes do
       it 'should use the correct URI' do
         rt.find_movie(movie_id)
         WebMock.should have_requested(:get, movie_info_url)
+      end
+
+      it 'should have the correct title' do
+        movie.title.should == "Toy Story 3"
+      end
+
+      it 'should have an original poster' do
+        movie.posters.original.should == 'http://content6.flixster.com/movie/11/13/43/11134356_ori.jpg'
       end
     end
   end
