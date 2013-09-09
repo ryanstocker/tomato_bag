@@ -69,6 +69,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.8.0)
     multi_xml (0.5.5)
+    pg (0.16.0)
     polyglot (0.3.3)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -158,6 +159,7 @@ DEPENDENCIES
   httparty
   jbuilder (~> 1.2)
   jquery-rails
+  pg
   pry
   rails (= 4.0.0)
   rails_12factor
