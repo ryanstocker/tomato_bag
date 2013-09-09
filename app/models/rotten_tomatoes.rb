@@ -2,33 +2,52 @@ require 'httparty'
 require 'json'
 require 'cgi'
 require 'recursive-open-struct'
+require 'active_support' #test outside of Rails
 
 
 module RottenTomatoes
+
   def self.new(key)
     RottenTomatoes::Api.new(key)
   end
 
-
   class Base < RecursiveOpenStruct; end
 
   class Api
+    cattr_accessor :api_key
+
     RT_BASE_URL = 'http://api.rottentomatoes.com/api/public'
     RT_BASE_VERSION = '1.0'
     RT_MIME = 'json'
 
     def initialize(api_key)
+      @@api_key = api_key
       @@base_url = "#{RT_BASE_URL}/v#{RT_BASE_VERSION}"
       @@list_url = @@base_url + "/lists"
-      @@new_dvds_url = @@list_url + "/dvds/new_releases.#{RT_MIME}?apikey=#{api_key}"
+      @@movie_info_url = @@base_url + "/movies"
     end
 
     def new_dvd_releases(page_limit=16, page=1, country="US")
-      data = get_url_as_json(@@new_dvds_url)
+      data = get_url_as_json(new_dvds_url)
       data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
     end
 
+    # http://api.rottentomatoes.com/api/public/v1.0/movies/770672122.json?apikey=
+    def find_movie(id)
+      data = get_url_as_json(movie_info_url(id))
+      data.present? ? Movie.new(data) : nil
+    end
+
+
       private
+
+      def movie_info_url(id)
+        @@movie_info_url + "/#{id}.#{RT_MIME}?apikey=#{api_key}"
+      end
+
+      def new_dvds_url
+        @@list_url + "/dvds/new_releases.#{RT_MIME}?apikey=#{api_key}"
+      end
 
       def get_url_as_json(url)
         resp = HTTParty.get(url)
