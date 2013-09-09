@@ -1,0 +1,12 @@
+@import "foundation/variables";
+@import "foundation/components/global";
+@import "foundation/components/alert-boxes";
+
+.movie-controls { display:none; }
+.movie-poster:hover .movie-controls { display:block; }
+
+.alert-box-notice{ 
+  @include alert-base;
+  @include alert-style(#ff6c3c); 
+  .close { @include alert-close; }
+}
