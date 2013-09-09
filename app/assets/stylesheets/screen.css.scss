@@ -1,6 +1,7 @@
 @import "foundation/variables";
 @import "foundation/components/global";
 @import "foundation/components/alert-boxes";
+@import 'foundation-icons';
 
 .movie-controls { display:none; }
 .movie-poster:hover .movie-controls { display:block; }

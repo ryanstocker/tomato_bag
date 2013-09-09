@@ -51,6 +51,11 @@ GEM
       html2haml
     erubis (2.7.0)
     execjs (2.0.1)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    foundation-icons-sass-rails (3.0.0)
+      railties (>= 3.1.1)
+      sass-rails (>= 3.1.1)
     haml (4.0.3)
       tilt
     haml-rails (0.4)
@@ -178,6 +183,8 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise
   erb2haml
+  factory_girl
+  foundation-icons-sass-rails
   haml-rails
   httparty
   jbuilder (~> 1.2)
