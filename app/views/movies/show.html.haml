@@ -7,11 +7,11 @@
     %p= @movie.synopsis
 .row
   .large-4.large-offset-8.columns
-    - if !current_user.wanted_movie?(@movie)
+    - if user_signed_in? && !current_user.wanted_movie?(@movie)
       = form_tag flagged_movies_path, method: :post do |f|
         = hidden_field_tag :movie_id, @movie.id
         = submit_tag 'Add to wanted', class: 'small button secondary'
-    - else
+    - elsif user_signed_in?
       = form_tag flagged_movie_path(@movie.id), method: :delete do |f|
         = hidden_field_tag :movie_id, @movie.id
         = submit_tag 'Remove from wanted', class: 'small button secondary'
