@@ -33,6 +33,35 @@ describe RottenTomatoes do
     end
   end
 
+  context 'upcoming dvd releases' do
+    let(:upcoming_releases)       { rt.upcoming_dvd_releases }
+    let(:upcoming_releases_url)   { 'http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/upcoming.json?apikey=123' }
+    let(:upcoming_releases_file)       { File.read('spec/fixtures/upcoming_releases.json') }
+
+    before(:each) do
+      stub_request(:get,
+                   upcoming_releases_url
+                  ).to_return(status: 200, body: upcoming_releases_file)
+    end
+
+    it 'should use the correct URI' do
+      upcoming_releases
+      WebMock.should have_requested(:get, upcoming_releases_url)
+    end
+
+     it 'should return an array of Movies' do
+      upcoming_releases.should be_an(Array)
+      upcoming_releases.each do |ur|
+        ur.should be_a(Movie)
+      end
+    end
+
+    it 'should return the default number of movies in a page' do
+      upcoming_releases.size.should == 16
+    end
+
+  end
+
   context 'movies' do
 
     let(:movie_id)        { 770672122 } #Toy Story 3

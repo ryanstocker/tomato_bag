@@ -40,6 +40,11 @@ module RottenTomatoes
       data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
     end
 
+    def upcoming_dvd_releases(page_limit=16, page=1, country="US")
+      data = get_url_as_json(upcoming_dvds_url)
+      data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
+    end
+
     # http://api.rottentomatoes.com/api/public/v1.0/movies/770672122.json?apikey=
     def find_movie(id)
       data = get_url_as_json(movie_info_url(id))
@@ -55,6 +60,10 @@ module RottenTomatoes
 
       def new_dvds_url
         @list_url + "/dvds/new_releases.#{RT_MIME}?apikey=#{api_key}"
+      end
+
+      def upcoming_dvds_url
+        @list_url + "/dvds/upcoming.#{RT_MIME}?apikey=#{api_key}"
       end
 
       def get_url_as_json(url)
