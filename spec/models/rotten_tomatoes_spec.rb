@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RottenTomatoes do
 
-  let(:rt)                { RottenTomatoes.new(123) }
+  let(:rt)                { RottenTomatoes::Api.instance }
 
   context 'new dvd releases' do
 
@@ -59,6 +59,10 @@ describe RottenTomatoes do
 
       it 'should have an original poster' do
         movie.posters.original.should == 'http://content6.flixster.com/movie/11/13/43/11134356_ori.jpg'
+      end
+
+      it 'should have an imdb id' do
+        movie.alternate_ids.imdb.should_not be_nil
       end
     end
   end

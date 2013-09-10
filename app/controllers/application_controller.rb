@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   end
 
   def rotten_tomatoes
-    RottenTomatoes.new(ENV['ROTTEN_TOMATOES_API_KEY'])
+    RottenTomatoes::Api.instance
   end
 
   # Prevent CSRF attacks by raising an exception.

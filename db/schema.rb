@@ -11,7 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130909173715) do
+ActiveRecord::Schema.define(version: 20130909201951) do
+
+  create_table "flagged_movies", force: true do |t|
+    t.integer  "user_id"
+    t.integer  "rt_movie_id"
+    t.string   "rt_imdb_id"
+    t.string   "title"
+    t.string   "poster_detailed_url"
+    t.string   "poster_original_url"
+    t.string   "state"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "name",                   default: "", null: false
