@@ -35,13 +35,13 @@ module RottenTomatoes
       end
     end
 
-    def new_dvd_releases(page_limit=16, page=1, country="US")
-      data = get_url_as_json(new_dvds_url)
+    def new_dvd_releases(page_limit=50, page=1, country="US")
+      data = get_url_as_json(new_dvds_url(page_limit,page))
       data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
     end
 
-    def upcoming_dvd_releases(page_limit=16, page=1, country="US")
-      data = get_url_as_json(upcoming_dvds_url)
+    def upcoming_dvd_releases(page_limit=50, page=1, country="US")
+      data = get_url_as_json(upcoming_dvds_url(page_limit,page))
       data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
     end
 
@@ -58,12 +58,12 @@ module RottenTomatoes
         @movie_info_url + "/#{id}.#{RT_MIME}?apikey=#{api_key}"
       end
 
-      def new_dvds_url
-        @list_url + "/dvds/new_releases.#{RT_MIME}?apikey=#{api_key}"
+      def new_dvds_url(page_limit=16, page=1)
+        @list_url + "/dvds/new_releases.#{RT_MIME}?apikey=#{api_key}&page_limit=#{page_limit}&page=#{page}"
       end
 
-      def upcoming_dvds_url
-        @list_url + "/dvds/upcoming.#{RT_MIME}?apikey=#{api_key}"
+      def upcoming_dvds_url(page_limit=16, page=1)
+        @list_url + "/dvds/upcoming.#{RT_MIME}?apikey=#{api_key}&page_limit=#{page_limit}&page=#{page}"
       end
 
       def get_url_as_json(url)
