@@ -3,3 +3,12 @@
     %li.name
       %h1
         =link_to 'TomatoBag', root_url
+  %section.top-bar-section
+    %ul.right
+      %li= link_to 'New Releases', root_url
+      %li.divider.hide-for-small
+      %li.has-dropdown.not-click
+        %a{href: '#'} My Movies
+        %ul.dropdown
+          %li= link_to 'Wanted Movies', wanted_flagged_movies_path
+          %li= link_to 'Watched Movies', watched_flagged_movies_path
