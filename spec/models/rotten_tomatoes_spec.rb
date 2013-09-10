@@ -7,7 +7,7 @@ describe RottenTomatoes do
   context 'new dvd releases' do
 
     let(:new_releases)      { rt.new_dvd_releases }
-    let(:new_releases_url)  { 'http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/new_releases.json?apikey=123' }
+    let(:new_releases_url)  { 'http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/new_releases.json?apikey=123&page=1&page_limit=50' }
     let(:new_releases_file) { File.read('spec/fixtures/new_releases.json') }
 
     before(:each) do
@@ -33,10 +33,12 @@ describe RottenTomatoes do
     end
   end
 
+  # probably a good opportunity to try out rspec shared examples.
+  # I don't mind verbosity in specs for clarity, though
   context 'upcoming dvd releases' do
     let(:upcoming_releases)       { rt.upcoming_dvd_releases }
-    let(:upcoming_releases_url)   { 'http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/upcoming.json?apikey=123' }
-    let(:upcoming_releases_file)       { File.read('spec/fixtures/upcoming_releases.json') }
+    let(:upcoming_releases_url)   { 'http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/upcoming.json?apikey=123&page=1&page_limit=50' }
+    let(:upcoming_releases_file)  { File.read('spec/fixtures/upcoming_releases.json') }
 
     before(:each) do
       stub_request(:get,
