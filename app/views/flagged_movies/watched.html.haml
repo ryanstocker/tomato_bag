@@ -1,0 +1,4 @@
+%h2 My Watcged Movies
+- if @watched_movies.empty?
+  %p You haven't flagged any movies as being watched.  Check out your #{link_to 'Wanted Movies', wanted_flagged_movies_path} and watch some!
+= render @watched_movies

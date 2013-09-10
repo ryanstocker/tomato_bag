@@ -1,0 +1,16 @@
+.row
+  .movie-item.large-12.columns{id: "flagged_movie_#{flagged_movie.id}"}
+    .row
+      .large-2.columns
+        = image_tag flagged_movie.poster_detailed_url
+      .large-10.columns
+        .row
+          .large-8.columns.movie-title
+            %h4.subheader= flagged_movie.title
+          .large-2.columns.freshness
+            = freshness(flagged_movie.movie)
+      .large-10.columns
+        %p.small= flagged_movie.movie.synopsis
+    .row
+      .large-4.large-offset-8.columns
+        = link_to 'Remove', flagged_movie, remote: true, method: :delete, class: 'button small'

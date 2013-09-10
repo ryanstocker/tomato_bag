@@ -1,19 +1,4 @@
 %h2 My Wanted Movies
-
-- @wanted_movies.each do |wanted|
-  .row
-    .movie-item.large-12.columns{id: "flagged_movie_#{wanted.id}"}
-      .row
-        .large-2.columns
-          = image_tag wanted.poster_detailed_url
-        .large-10.columns
-          .row
-            .large-8.columns.movie-title
-              %h4.subheader= wanted.title
-            .large-2.columns.freshness
-              = freshness(wanted.movie)
-        .large-10.columns
-          %p.small= wanted.movie.synopsis
-      .row
-        .large-4.large-offset-8.columns
-          = link_to 'Remove', wanted, remote: true, method: :delete, class: 'button small'
+- if @wanted_movies.empty?
+  %p You don't have any movies saved to your wanted list.  Check out the #{link_to 'New Releases', new_releases_dvds_path} and add some!
+= render @wanted_movies
