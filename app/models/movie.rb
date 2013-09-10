@@ -1,7 +1,7 @@
 class Movie < RottenTomatoes::Base
 
   def self.find(id)
-    RottenTomatoes::Api.instance.find_movie(id)
+    RottenTomatoes.api.find_movie(id)
   end
 
   def imdb_id

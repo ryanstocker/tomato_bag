@@ -13,9 +13,7 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.check_pending! if defined?(ActiveRecord::Migration)
 
-RottenTomatoes.configure do |config|
-  config.api_key = '123'
-end
+ENV['ROTTEN_TOMATOES_API_KEY'] = '123'
 
 RSpec.configure do |config|
   # ## Mock Framework

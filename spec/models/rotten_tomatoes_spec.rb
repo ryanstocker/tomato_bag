@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RottenTomatoes do
 
-  let(:rt)                { RottenTomatoes::Api.instance }
+  let(:rt)                { RottenTomatoes.api }
 
   context 'new dvd releases' do
 

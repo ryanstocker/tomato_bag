@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   end
 
   def rotten_tomatoes
-    RottenTomatoes::Api.instance
+    RottenTomatoes.api
   end
 
   def store_location

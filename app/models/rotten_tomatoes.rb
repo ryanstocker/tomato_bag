@@ -8,33 +8,20 @@ require 'singleton'
 
 module RottenTomatoes
 
-  # thought a configure block would be more Railsy (modeled from
-  # thoughtbot's Clearance)
-  class Configuration
-    attr_accessor :api_key
-
-    def intialize
-      @api_key = 'need_api_key'
-    end
+  def self.api
+    RottenTomatoes::Api.new(ENV['ROTTEN_TOMATOES_API_KEY'])
   end
 
   class Base < RecursiveOpenStruct; end
 
   class Api
-    include Singleton
-    cattr_accessor :configuration
-
-    def self.configure
-      self.configuration ||= Configuration.new
-      yield(configuration)
-    end
 
     RT_BASE_URL = 'http://api.rottentomatoes.com/api/public'
     RT_BASE_VERSION = '1.0'
     RT_MIME = 'json'
 
-    def initialize
-      @api_key ||= self.configuration.api_key
+    def initialize(api_key)
+      @api_key ||= api_key
       @base_url = "#{RT_BASE_URL}/v#{RT_BASE_VERSION}"
       @list_url = @base_url + "/lists"
       @movie_info_url = @base_url + "/movies"
