@@ -52,7 +52,8 @@ RSpec.configure do |config|
       alternate_ids: {imdb: '02345'}, 
       posters: {detailed: 'test', original: 'test'},
       synopsis: 'Wonderful film',
-      release_dates: {dvd: '01-02-2014'}
+      release_dates: {dvd: '01-02-2014'},
+      title: 'Spaceballs 2: The Search for More Money'
     }
   end
 end
