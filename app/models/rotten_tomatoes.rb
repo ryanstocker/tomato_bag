@@ -3,28 +3,36 @@ require 'json'
 require 'cgi'
 require 'recursive-open-struct'
 require 'active_support' #test outside of Rails
-require 'singleton'
 
 
 module RottenTomatoes
 
-  def self.api
-    RottenTomatoes::Api.new(ENV['ROTTEN_TOMATOES_API_KEY'])
-  end
-
   class Base < RecursiveOpenStruct; end
 
-  class Api
+  class Client
+
+    attr_writer :api_key
 
     RT_BASE_URL = 'http://api.rottentomatoes.com/api/public'
     RT_BASE_VERSION = '1.0'
     RT_MIME = 'json'
 
-    def initialize(api_key)
-      @api_key ||= api_key
+    def initialize(options={})
+      options.each do |k,v|
+        send(:"#{k}=", v)
+      end
+      yield self if block_given?
       @base_url = "#{RT_BASE_URL}/v#{RT_BASE_VERSION}"
       @list_url = @base_url + "/lists"
       @movie_info_url = @base_url + "/movies"
+    end
+
+    def api_key
+      if instance_variable_defined?(:@api_key)
+        @api_key
+      else
+        ENV['ROTTEN_TOMATOES_API_KEY']
+      end
     end
 
     def new_dvd_releases(page_limit=16, page=1, country="US")
@@ -42,11 +50,11 @@ module RottenTomatoes
       private
 
       def movie_info_url(id)
-        @movie_info_url + "/#{id}.#{RT_MIME}?apikey=#{@api_key}"
+        @movie_info_url + "/#{id}.#{RT_MIME}?apikey=#{api_key}"
       end
 
       def new_dvds_url
-        @list_url + "/dvds/new_releases.#{RT_MIME}?apikey=#{@api_key}"
+        @list_url + "/dvds/new_releases.#{RT_MIME}?apikey=#{api_key}"
       end
 
       def get_url_as_json(url)

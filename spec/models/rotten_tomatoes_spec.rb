@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe RottenTomatoes do
 
-  let(:rt)                { RottenTomatoes.api }
+  let(:rt)                { RottenTomatoes::Client.new(api_key: '123') }
 
   context 'new dvd releases' do
 

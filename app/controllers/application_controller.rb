@@ -9,7 +9,9 @@ class ApplicationController < ActionController::Base
   end
 
   def rotten_tomatoes
-    RottenTomatoes.api
+    RottenTomatoes::Client.new do |config|
+      config.api_key = ENV['ROTTEN_TOMATOES_API_KEY']
+    end
   end
 
   def store_location
