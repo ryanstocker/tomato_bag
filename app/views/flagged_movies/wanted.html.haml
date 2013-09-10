@@ -1,5 +1,6 @@
 %h2 My Wanted Movies
 
 - @wanted_movies.each do |movie|
-  = image_tag movie.poster
+  = image_tag movie.poster_detailed_url
   = movie.title
+  %br/
