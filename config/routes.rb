@@ -6,6 +6,7 @@ TomatoBag::Application.routes.draw do
   resources :dvds do
     collection do
       get 'new_releases'
+      get 'upcoming_releases'
     end
   end
 
