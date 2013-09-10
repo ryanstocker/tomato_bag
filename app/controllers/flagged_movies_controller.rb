@@ -1,6 +1,10 @@
 class FlaggedMoviesController < ApplicationController
   before_filter :authenticate_user!
 
+  def wanted
+    @wanted_movies = current_user.flagged_movies.wanted
+  end
+
   def create
     movie = rotten_tomatoes.find_movie(params[:movie_id])
     @flagged_movie = current_user.flagged_movies.build(state: 'wanted', rt_movie_id: movie.id, 
