@@ -4,8 +4,10 @@
 @import "foundation/components/panels";
 @import 'foundation-icons';
 
-.movie-controls { display:none; }
-.movie-poster:hover .movie-controls { display:block; }
+.movie-controls {
+  margin-top:10px;
+  a { margin-bottom: 0px; }
+};
 
 .alert-box-notice{ 
   @include alert-base;
@@ -16,6 +18,10 @@
 .movie-item {
   @include panel;
   margin-bottom:10px !important;
+}
+
+.movie-poster {
+  @include panel;
 }
 
 .freshness {
