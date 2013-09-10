@@ -5,4 +5,8 @@ class FlaggedMovie < ActiveRecord::Base
   def movie
     @movie ||= Movie.find(rt_movie_id)
   end
+
+  def watched!
+    update_attribute(:state, 'watched')
+  end
 end
