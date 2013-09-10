@@ -1,4 +1,6 @@
 - flash.each do |k,v|
-  .alert-box-notice{data: {alert: ''}}
+  .alert-box-notice{ data: {alert: ''}}
     = v
     %a.close{href:'#'}< &times;
+
+#flash_notice.alert-box-notice.hidden{data: {alert: ''}}

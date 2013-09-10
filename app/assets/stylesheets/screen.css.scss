@@ -1,6 +1,7 @@
 @import "foundation/variables";
 @import "foundation/components/global";
 @import "foundation/components/alert-boxes";
+@import "foundation/components/panels";
 @import 'foundation-icons';
 
 .movie-controls { display:none; }
@@ -10,4 +11,21 @@
   @include alert-base;
   @include alert-style(#ff6c3c); 
   .close { @include alert-close; }
+}
+
+.movie-item {
+  @include panel;
+  margin-bottom:10px !important;
+}
+
+.freshness {
+  margin-top:8px;
+}
+
+.movie-title {
+  h4 { padding: 0 }
+}
+
+.hidden {
+  display:none;
 }
