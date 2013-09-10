@@ -2,8 +2,5 @@
 
 %ul.small-block-grid-2.large-block-grid-4
   - @movies.each do |movie|
-    %li
-      .movie-poster
-        %a.th.radius{'href' => movie_path(movie.id)}
-          =image_tag movie.posters.detailed
-        .movie-controls
+    = render 'movie', movie: movie, wanted_movie_ids: @wanted_movie_ids
+

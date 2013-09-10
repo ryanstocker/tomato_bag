@@ -1,0 +1,10 @@
+%li
+  .movie-poster
+    %a.th.radius{'href' => movie_path(movie.id)}
+      =image_tag movie.posters.detailed
+    .movie-controls
+      - if wanted_movie_ids.include?(movie.id.to_i)
+        %i.fi-check>
+        =" Wanted"
+      - else
+        = link_to 'Want', flagged_movies_path(movie_id: movie.id), method: :post, class: 'small button success'

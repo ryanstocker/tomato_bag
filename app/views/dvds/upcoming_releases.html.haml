@@ -1,0 +1,5 @@
+%h2 Upcoming DVD Releases
+
+%ul.small-block-grid-2.large-block-grid-4
+  - @movies.each do |movie|
+    = render 'movie', movie: movie
