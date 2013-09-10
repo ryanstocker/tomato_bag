@@ -37,7 +37,12 @@ class FlaggedMoviesController < ApplicationController
   end
 
   def destroy
-    if @flagged_movie = current_user.flagged_movies.find(params[:id]).destroy
+    if params[:movie_id].present?
+      @flagged_movie = current_user.flagged_movies.where(rt_movie_id: params[:movie_id]).first
+    else
+      @flagged_movie = current_user.flagged_movies.find(params[:id])
+    end
+    if @flagged_movie.destroy
       respond_to do |format|
         format.html do
           flash[:notice] = "Movie removed from your wanted list"
