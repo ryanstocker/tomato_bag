@@ -14,5 +14,5 @@
     - elsif user_signed_in?
       = form_tag flagged_movie_path(@movie.id), method: :delete do |f|
         = hidden_field_tag :movie_id, @movie.id
+        = hidden_field_tag :state, 'watched'
         = submit_tag 'Remove from wanted', class: 'small button secondary'
-

@@ -1,0 +1,4 @@
+$("#flash_notice").html("<%= escape_javascript(flash.now[:notice])%>");
+$("#flash_notice").show(300);
+$("#flash_notice").fadeOut(5000);
+$("#flagged_movie_<%= @flagged_movie.id %>").fadeOut(300);

@@ -10,7 +10,7 @@ TomatoBag::Application.routes.draw do
   end
 
   resources :movies
-  resources :flagged_movies, only: [:create, :destroy] do
+  resources :flagged_movies, only: [:create, :destroy, :update] do
     collection do
       get 'wanted'
       get 'watched'
