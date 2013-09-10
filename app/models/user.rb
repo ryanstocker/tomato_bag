@@ -4,4 +4,8 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
+  def wanted_movie?(movie)
+    flagged_movies.where(rt_movie_id: movie.id, state: 'wanted').exists?
+  end
 end
