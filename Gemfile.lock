@@ -53,6 +53,9 @@ GEM
     execjs (2.0.1)
     factory_girl (4.2.0)
       activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     foundation-icons-sass-rails (3.0.0)
       railties (>= 3.1.1)
       sass-rails (>= 3.1.1)
@@ -184,6 +187,7 @@ DEPENDENCIES
   devise
   erb2haml
   factory_girl
+  factory_girl_rails
   foundation-icons-sass-rails
   haml-rails
   httparty

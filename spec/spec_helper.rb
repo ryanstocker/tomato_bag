@@ -15,6 +15,7 @@ ActiveRecord::Migration.check_pending! if defined?(ActiveRecord::Migration)
 
 ENV['ROTTEN_TOMATOES_API_KEY'] = '123' # in the event we don't config it
 
+
 RSpec.configure do |config|
   # ## Mock Framework
   #
@@ -42,4 +43,10 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = "random"
+  config.include Devise::TestHelpers, :type => :controller
+  config.include FactoryGirl::Syntax::Methods
+
+  def mock_movie_attributes
+    {id: 12345, alternate_ids: {imdb: '02345'}, posters: {detailed: 'test', original: 'test'} }
+  end
 end
