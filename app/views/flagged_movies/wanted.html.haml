@@ -1,6 +1,19 @@
 %h2 My Wanted Movies
 
-- @wanted_movies.each do |movie|
-  = image_tag movie.poster_detailed_url
-  = movie.title
-  %br/
+- @wanted_movies.each do |wanted|
+  .row
+    .movie-item.large-12.columns{id: "flagged_movie_#{wanted.id}"}
+      .row
+        .large-2.columns
+          = image_tag wanted.poster_detailed_url
+        .large-10.columns
+          .row
+            .large-8.columns.movie-title
+              %h4.subheader= wanted.title
+            .large-2.columns.freshness
+              = freshness(wanted.movie)
+        .large-10.columns
+          %p.small= wanted.movie.synopsis
+      .row
+        .large-4.large-offset-8.columns
+          = link_to 'Remove', wanted, remote: true, method: :delete, class: 'button small'
