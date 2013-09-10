@@ -39,7 +39,7 @@ module RottenTomatoes
     RT_MIME = 'json'
 
     def initialize
-      @api_key = RottenTomatoes.configuration.api_key
+      @api_key ||= RottenTomatoes.configuration.api_key
       @base_url = "#{RT_BASE_URL}/v#{RT_BASE_VERSION}"
       @list_url = @base_url + "/lists"
       @movie_info_url = @base_url + "/movies"
