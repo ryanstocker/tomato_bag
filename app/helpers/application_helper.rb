@@ -11,7 +11,7 @@ module ApplicationHelper
   def dvd_availability(date)
     today = Date.today
     dvd_date = Chronic.parse(date).to_date
-    days = dvd_date - today
+    days = (dvd_date - today).to_i
     today < dvd_date ? "Available in #{pluralize(days, 'day', 'days')}" : "Currently Available"
   end
 end
