@@ -2,13 +2,14 @@ require 'spec_helper'
 
 describe Movie do
 
-  let(:movie_id) { 770672122 }
-  let(:movie)    { Movie.find(movie_id) }
+  let(:movie_id)    { 770672122 }
+  let(:movie)       { Movie.find(movie_id) }
+  let(:movie_file)  { File.read('spec/fixtures/movies/toy_story_3.json') }
 
   before do
      stub_request(:get,
-               'http://api.rottentomatoes.com/api/public/v1.0/movies/770672122.json?apikey=123'
-              ).to_return(status: 200, body: File.read('spec/fixtures/movies/toy_story_3.json'))
+               "http://api.rottentomatoes.com/api/public/v1.0/movies/770672122.json?apikey=123"
+              ).to_return(status: 200, body: movie_file)
   end
 
   describe ".imdb_id" do
