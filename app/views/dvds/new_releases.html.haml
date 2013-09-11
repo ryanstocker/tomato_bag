@@ -1,6 +1,6 @@
-%h2 New DVD Releases
-
+%h3 New DVD Releases
+%h5.subheader See something you want to grab later?  Bag it and see it on your #{link_to 'wanted list', wanted_flagged_movies_path}
 %ul.small-block-grid-2.large-block-grid-4
   - @movies.each do |movie|
-    = render 'movie', movie: movie, wanted_movie_ids: @wanted_movie_ids
+    = render 'movies/movie', movie: movie, wanted_movie_ids: @wanted_movie_ids
 
