@@ -64,6 +64,36 @@ describe RottenTomatoes do
 
   end
 
+  context 'searching' do
+    let(:search_term)         { 'Hobbit' }
+    let(:search_movies)       { rt.search_movies(search_term) }
+    let(:search_movies_url)   { 'http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=123&q=Hobbit' }
+    let(:search_movies_file)  { File.read('spec/fixtures/hobbit_search.json') }
+
+    describe 'searching for a movie' do
+      before(:each) do
+        stub_request(:get,
+                      search_movies_url
+                    ).to_return(status: 200, body: search_movies_file)
+      end
+
+      it 'should use the correct URI' do
+        search_movies
+        WebMock.should have_requested(:get, search_movies_url)
+      end
+
+      it 'should return the correct number of results' do
+        expect(search_movies.size).to eq(6)
+      end
+
+      it 'should have returned results with titles' do
+        search_movies.each do |sm|
+          expect(sm.title).to_not be_blank
+        end
+      end
+    end
+  end
+
   context 'movies' do
 
     let(:movie_id)        { 770672122 } #Toy Story 3
