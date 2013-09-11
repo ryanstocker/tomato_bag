@@ -1,0 +1,9 @@
+%h2 Search Movies
+
+= form_tag search_movies_path, method: :get do
+  = text_field_tag :q, params[:q]
+  = submit_tag 'Search', class: 'button'
+
+%ul.small-block-grid-2.large-block-grid-4
+  - @movies.each do |movie|
+    = render 'dvds/movie', movie: movie, wanted_movie_ids: @wanted_movie_ids

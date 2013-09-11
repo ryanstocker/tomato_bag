@@ -15,7 +15,6 @@ module RottenTomatoes
 
     RT_BASE_URL = 'http://api.rottentomatoes.com/api/public'
     RT_BASE_VERSION = '1.0'
-    RT_MIME = 'json'
 
     def initialize(options={})
       options.each do |k,v|
@@ -36,13 +35,15 @@ module RottenTomatoes
     end
 
     def new_dvd_releases(page_limit=48, page=1, country="US")
-      data = get_url_as_json(new_dvds_url(page_limit,page))
-      data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
+      convert_to_movie_array(get_url_as_json(new_dvds_url(page_limit,page)))
     end
 
     def upcoming_dvd_releases(page_limit=48, page=1, country="US")
-      data = get_url_as_json(upcoming_dvds_url(page_limit,page))
-      data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
+      convert_to_movie_array(get_url_as_json(upcoming_dvds_url(page_limit,page)))
+    end
+
+    def search_movies(q)
+      convert_to_movie_array(get_url_as_json(movie_search_url(q)))
     end
 
     # http://api.rottentomatoes.com/api/public/v1.0/movies/770672122.json?apikey=
@@ -54,16 +55,24 @@ module RottenTomatoes
 
       private
 
+      def convert_to_movie_array(data)
+        data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
+      end
+
+      def movie_search_url(q="")
+        @movie_info_url + ".json?apikey=#{api_key}&q=#{CGI.escape(q)}"
+      end
+
       def movie_info_url(id)
-        @movie_info_url + "/#{id}.#{RT_MIME}?apikey=#{api_key}"
+        @movie_info_url + "/#{id}.json?apikey=#{api_key}"
       end
 
       def new_dvds_url(page_limit=16, page=1)
-        @list_url + "/dvds/new_releases.#{RT_MIME}?apikey=#{api_key}&page_limit=#{page_limit}&page=#{page}"
+        @list_url + "/dvds/new_releases.json?apikey=#{api_key}&page_limit=#{page_limit}&page=#{page}"
       end
 
       def upcoming_dvds_url(page_limit=16, page=1)
-        @list_url + "/dvds/upcoming.#{RT_MIME}?apikey=#{api_key}&page_limit=#{page_limit}&page=#{page}"
+        @list_url + "/dvds/upcoming.json?apikey=#{api_key}&page_limit=#{page_limit}&page=#{page}"
       end
 
       def get_url_as_json(url)
