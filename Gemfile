@@ -14,6 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'zurb-foundation'
 gem 'foundation-icons-sass-rails'
 #gem 'jquery-turbolinks'
+gem 'chronic'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'

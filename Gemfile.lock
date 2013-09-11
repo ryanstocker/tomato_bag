@@ -30,6 +30,7 @@ GEM
     atomic (1.1.13)
     bcrypt-ruby (3.1.2)
     builder (3.1.4)
+    chronic (0.10.2)
     coderay (1.0.9)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
@@ -185,6 +186,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  chronic
   coffee-rails (~> 4.0.0)
   devise
   erb2haml
