@@ -9,10 +9,11 @@ gem 'jquery-rails'
 gem 'rails', '4.0.0'
 gem 'recursive-open-struct'
 gem 'sass-rails', '~> 4.0.0'
-gem 'turbolinks'
+#gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'zurb-foundation'
 gem 'foundation-icons-sass-rails'
+#gem 'jquery-turbolinks'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
