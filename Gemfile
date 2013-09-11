@@ -10,7 +10,6 @@ gem 'haml-rails'
 gem 'httparty'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
-gem 'mailcatcher'
 gem 'rails', '4.0.0'
 gem 'recursive-open-struct'
 gem 'sass-rails', '~> 4.0.0'
@@ -21,6 +20,7 @@ group :development do
   gem 'guard'
   gem 'guard-rails'
   gem 'guard-rspec'
+  gem 'mailcatcher'
 end
 
 group :development, :test do
