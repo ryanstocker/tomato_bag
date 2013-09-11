@@ -23,6 +23,12 @@ class ApplicationController < ActionController::Base
     session[:return_to] = nil
   end
 
+  def load_wanted_movie_ids
+    @wanted_movie_ids = []
+    @wanted_movie_ids = current_user.flagged_movies.wanted.pluck(:rt_movie_id) if user_signed_in?
+  end
+
+
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
