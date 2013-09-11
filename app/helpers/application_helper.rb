@@ -1,6 +1,6 @@
 module ApplicationHelper
   def freshness(movie)
-    score = movie.ratings.critics_score
+    score = movie.ratings.critics_score.to_i
     if score > 60
       content_tag(:span, "Fresh (#{score})", class: 'label success')
     else
