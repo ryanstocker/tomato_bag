@@ -22,6 +22,8 @@
 
 .movie-poster {
   @include panel;
+  min-height: 412px;
+  a img{ min-height: 267px; min-width: 180px; }
 }
 
 .freshness {
