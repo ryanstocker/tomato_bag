@@ -35,12 +35,12 @@ module RottenTomatoes
       end
     end
 
-    def new_dvd_releases(page_limit=50, page=1, country="US")
+    def new_dvd_releases(page_limit=48, page=1, country="US")
       data = get_url_as_json(new_dvds_url(page_limit,page))
       data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
     end
 
-    def upcoming_dvd_releases(page_limit=50, page=1, country="US")
+    def upcoming_dvd_releases(page_limit=48, page=1, country="US")
       data = get_url_as_json(upcoming_dvds_url(page_limit,page))
       data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
     end
