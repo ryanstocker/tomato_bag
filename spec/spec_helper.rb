@@ -55,7 +55,8 @@ RSpec.configure do |config|
       posters: {detailed: 'test', original: 'test'},
       synopsis: 'Wonderful film',
       release_dates: {dvd: '01-02-2014'},
-      title: 'Spaceballs 2: The Search for More Money'
+      title: 'Spaceballs 2: The Search for More Money',
+      ratings: { critics_score: '99' }
     }
   end
 end
