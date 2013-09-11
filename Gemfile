@@ -29,6 +29,7 @@ group :production do
   gem 'pg'
   gem 'rack-cache'
   gem 'rails_12factor'
+  gem "memcachier"
 end
 
 group :test do
