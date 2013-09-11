@@ -14,7 +14,7 @@
     .row
       .large-4.large-offset-8.columns
         = link_to 'Remove', flagged_movie, remote: true, method: :delete, class: 'button small'
-        - if flagged_movie.wanted?
-          = link_to 'Mark as Watched', flagged_movie_path(id: flagged_movie.id, 'flagged_movie[state]' => 'watched'), remote: true, method: :put, class: 'button small'
+        - if !flagged_movie.watched?
+          = link_to 'Mark as Watched', flagged_movie_path(id: flagged_movie.id, 'flagged_movie[state]' => 'watched', 'flagged_movie[rt_movie_id]' => flagged_movie.rt_movie_id), remote: true, method: :put, class: 'button small'
         - elsif flagged_movie.watched?
-          = link_to 'Unmark as Watched', flagged_movie_path(id: flagged_movie.id, 'flagged_movie[state]' => 'wanted'), remote: true, method: :put, class: 'button small'
+          = link_to 'Unmark as Watched', flagged_movie_path(id: flagged_movie.id, 'flagged_movie[state]' => 'wanted', 'flagged_movie[rt_movie_id]' => flagged_movie.rt_movie_id), remote: true, method: :put, class: 'button small'

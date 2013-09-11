@@ -22,10 +22,9 @@ class FlaggedMoviesController < ApplicationController
   end
 
   def update
-    @flagged_movie = current_user.flagged_movies.find(params[:id])
-    new_state = params[:flagged_movie][:state] == 'watched' ? 'wanted' : 'watched'
-
-    if @flagged_movie.update_attribute(:state, params[:flagged_movie][:state])
+    @flagged_movie = current_user.flagged_movies.where(rt_movie_id: params[:flagged_movie][:rt_movie_id]).first
+    new_state = params[:flagged_movie][:state]
+    if @flagged_movie.update_attributes(state: params[:flagged_movie][:state])
       respond_to do |format|
         format.html do
           flash[:notice] = "#{@flagged_movie.title} was moved to your #{new_state} list"
