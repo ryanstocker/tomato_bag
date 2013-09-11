@@ -11,3 +11,4 @@ In order to use TomatoBag, you'll need a developer key from [rotten tomatoes](de
    
     export ROTTEN_TOMATOES_API_KEY=[your key]
 
+Note: TomatoBag is set to cache results for 24 hours in production
