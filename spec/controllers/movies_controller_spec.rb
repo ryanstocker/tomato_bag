@@ -14,5 +14,12 @@ describe MoviesController do
       before { get :show, :id => movie.id }
       it { response.should be_success }
     end
+
+    describe "GET 'search'" do
+      it "should allow guest access to searching" do
+        get :search
+        expect(response).to be_success
+      end
+    end
   end
 end
