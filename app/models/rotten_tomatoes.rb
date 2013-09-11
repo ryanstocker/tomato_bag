@@ -76,8 +76,10 @@ module RottenTomatoes
       end
 
       def get_url_as_json(url)
-        resp = HTTParty.get(url)
-        JSON.parse(resp.body) if resp.code == 200
+        Rails.cache.fetch(url, expires_in: 24.hours) do
+          resp = HTTParty.get(url)
+          JSON.parse(resp.body) if resp.code == 200
+        end
       end
   end
 end
