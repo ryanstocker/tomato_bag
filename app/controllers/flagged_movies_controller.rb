@@ -26,11 +26,14 @@ class FlaggedMoviesController < ApplicationController
   # this is a pretty weird update action since it's only being used to
   # change the state column of a flagged_movie
   def update
-    @flagged_movie = current_user.flagged_movies.where(rt_movie_id: params[:flagged_movie][:rt_movie_id]).first
+    @flagged_movie = current_user.flagged_movies.find(params[:id])
     new_state = params[:flagged_movie][:state]
     if @flagged_movie.update_attributes(state: params[:flagged_movie][:state])
       respond_to do |format|
-        format.html { redirect_back_or_default root_url, notice: "#{@flagged_movie.title} was moved to your #{new_state} list" }
+        format.html do
+          flash[:notice] = "#{@flagged_movie.title} was moved to your #{new_state} list"
+          redirect_back_or_default root_url
+        end
         format.js   { flash.now[:notice] = "#{@flagged_movie.title} was moved to your #{new_state} list" }
       end
     end
