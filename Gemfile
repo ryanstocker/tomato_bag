@@ -16,6 +16,12 @@ gem 'foundation-icons-sass-rails'
 #gem 'jquery-turbolinks'
 gem 'chronic'
 
+group :development do
+  gem 'guard'
+  gem 'guard-rails'
+  gem 'guard-rspec'
+end
+
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
   gem 'pry'
