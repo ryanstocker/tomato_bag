@@ -1,5 +1,7 @@
 TomatoBag::Application.routes.draw do
-  devise_for :users
+  scope defaults: (Rails.env.production? ? { protocol: 'https' } : {}) do
+    devise_for :users
+  end
 
   root to: "dvds#new_releases"
 
