@@ -19,7 +19,7 @@
             %li= link_to 'Watched Movies', watched_flagged_movies_path
       - if user_signed_in?
         %li.divider.hide-for-small
-        %li= link_to 'Sign Out', destroy_user_session_path, method: :delete
+        %li= link_to 'Sign Out', destroy_user_session_url, method: :delete
       - else
         %li.divider.hide-for-small
-        %li= link_to 'Sign In', new_user_session_path
+        %li= link_to 'Sign In', new_user_session_url
