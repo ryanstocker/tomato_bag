@@ -3,6 +3,8 @@ module ApplicationHelper
     score = movie.ratings.critics_score.to_i
     if score > 60
       content_tag(:span, "Fresh (#{score})", class: 'label success')
+    elsif score < 0
+      content_tag(:span, "No Score", class: 'label')
     else
       content_tag(:span, "Rotten (#{score})", class: 'label alert')
     end
