@@ -42,12 +42,14 @@ describe Movie do
   end
 
   describe '#top_ten_dvd_releases' do
-    xit 'it returns 10 dvds' do
-      expect(Movie.top_ten_dvd_releases.length).to eq(10)
+    let(:sorted_movies) {Movie.sort_by_rating(:new_dvd_releases).map(&:ratings).map(&:critics_score)}
+
+    it 'it returns 10 dvds' do
+      expect(Movie.top_ten(:new_dvd_releases).length).to eq(10)
     end
 
     it "it sorts the movie by their RT freshness rating" do
-      expect(Movie.sort_by_rating(:new_dvd_releases).map(&:ratings).map(&:critics_score)).to eq([98,96,95])
+      expect(sorted_movies[0..2]).to eq([96,95,87])
     end
   end
 

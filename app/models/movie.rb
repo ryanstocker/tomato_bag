@@ -9,7 +9,7 @@ class Movie < RottenTomatoes::Base
   end
 
   def self.search(q)
-    convert_to_movie_array(rotten_tomatoes_client.search_movies(q))
+    movie_json(__method__)
   end
 
   def self.convert_to_movie_array(data)
@@ -17,19 +17,23 @@ class Movie < RottenTomatoes::Base
   end
 
   def self.new_dvd_releases(page=1)
-    convert_to_movie_array(rotten_tomatoes_client.new_dvd_releases(48,page))
+    movie_json(__method__)
+  end
+
+  def self.movie_json(method)
+    convert_to_movie_array(rotten_tomatoes_client.send(method, 48))
   end
 
   def self.upcoming_releases(page=1)
-    convert_to_movie_array(rotten_tomatoes_client.upcoming_releases(48,page))
-  end
-
-  def self.top_ten_dvd_releases(page=1)
-    convert_to_movie_array(rotten_tomatoes_client.new_dvd_releases(48,page))#[0..9]
+    movie_json(__method__)
   end
 
   def self.sort_by_rating(release_type)
-    releases = send(release_type)
+    send(release_type).sort_by {|m| -m.ratings.critics_score}
+  end
+
+  def self.top_ten(release_type)
+    sort_by_rating(release_type)[0..9]
   end
 
   def imdb_id
