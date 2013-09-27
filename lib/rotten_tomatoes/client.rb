@@ -7,8 +7,6 @@ require 'active_support' #test outside of Rails
 
 module RottenTomatoes
 
-  class Base < RecursiveOpenStruct; end
-
   class Client
 
     attr_writer :api_key
