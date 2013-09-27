@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe RottenTomatoes do
+describe RottenTomatoes::Client do
 
   let(:rt)                { RottenTomatoes::Client.new(api_key: '123') }
 
@@ -21,15 +21,15 @@ describe RottenTomatoes do
       WebMock.should have_requested(:get, new_releases_url)
     end
 
-    it 'should return an array of Movies' do
-      new_releases.should be_an(Array)
-      new_releases.each do |nr|
-        nr.should be_a(Movie)
+    it 'should return an hash with movies' do
+      new_releases.should be_a(Hash)
+      new_releases['movies'].each do |movie_hash|
+        movie_hash['title'].should_not be_blank
       end
     end
 
     it 'should return the default number of movies in a page' do
-      new_releases.size.should == 16
+      new_releases['total'].should == 50
     end
   end
 
@@ -52,14 +52,14 @@ describe RottenTomatoes do
     end
 
      it 'should return an array of Movies' do
-      upcoming_releases.should be_an(Array)
-      upcoming_releases.each do |ur|
-        ur.should be_a(Movie)
+      upcoming_releases.should be_an(Hash)
+      upcoming_releases['movies'].each do |movie_hash|
+        movie_hash['title'].should_not be_blank
       end
     end
 
     it 'should return the default number of movies in a page' do
-      upcoming_releases.size.should == 16
+      upcoming_releases['total'].should == 88
     end
 
   end
@@ -83,12 +83,12 @@ describe RottenTomatoes do
       end
 
       it 'should return the correct number of results' do
-        expect(search_movies.size).to eq(6)
+        expect(search_movies['total']).to eq(6)
       end
 
       it 'should have returned results with titles' do
-        search_movies.each do |sm|
-          expect(sm.title).to_not be_blank
+        search_movies['movies'].each do |movie_hash|
+          expect(movie_hash['title']).to_not be_blank
         end
       end
     end
@@ -115,15 +115,15 @@ describe RottenTomatoes do
       end
 
       it 'should have the correct title' do
-        movie.title.should == "Toy Story 3"
+        movie['title'].should == "Toy Story 3"
       end
 
       it 'should have an original poster' do
-        movie.posters.original.should == 'http://content6.flixster.com/movie/11/13/43/11134356_ori.jpg'
+        movie['posters']['original'].should == 'http://content6.flixster.com/movie/11/13/43/11134356_ori.jpg'
       end
 
       it 'should have an imdb id' do
-        movie.alternate_ids.imdb.should_not be_nil
+        movie['alternate_ids']['imdb'].should_not be_nil
       end
     end
   end

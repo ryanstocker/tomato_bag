@@ -1,1 +1,1155 @@
-{"total":50,"movies":[{"id":"771190753","title":"Star Trek Into Darkness","year":2013,"mpaa_rating":"PG-13","runtime":131,"critics_consensus":"Visually spectacular and suitably action packed, Star Trek Into Darkness is a rock-solid installment in the venerable sci-fi franchise, even if it's not as fresh as its predecessor.","release_dates":{"theater":"2013-05-16","dvd":"2013-09-10"},"ratings":{"critics_rating":"Certified Fresh","critics_score":87,"audience_rating":"Upright","audience_score":91},"synopsis":"In Summer 2013, pioneering director J.J. Abrams will deliver an explosive action thriller that takes 'Star Trek Into Darkness.' When the crew of the Enterprise is called back home, they find an unstoppable force of terror from within their own organization has detonated the fleet and everything it stands for, leaving our world in a state of crisis. With a personal score to settle, Captain Kirk leads a manhunt to a war-zone world to capture a one man weapon of mass destruction. As our heroes are propelled into an epic chess game of life and death, love will be challenged, friendships will be torn apart, and sacrifices must be made for the only family Kirk has left: his crew. (c) Paramount","posters":{"thumbnail":"http://content7.flixster.com/movie/11/17/30/11173001_mob.jpg","profile":"http://content7.flixster.com/movie/11/17/30/11173001_pro.jpg","detailed":"http://content7.flixster.com/movie/11/17/30/11173001_det.jpg","original":"http://content7.flixster.com/movie/11/17/30/11173001_ori.jpg"},"abridged_cast":[{"name":"Chris Pine","id":"326393041","characters":["Kirk"]},{"name":"Zachary Quinto","id":"770678894","characters":["Spock"]},{"name":"Zoe Saldana","id":"162660050","characters":["Uhura"]},{"name":"Karl Urban","id":"162654704","characters":["Bones"]},{"name":"Simon Pegg","id":"162684057","characters":["Scotty"]}],"alternate_ids":{"imdb":"1408101"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771190753.json","alternate":"http://www.rottentomatoes.com/m/star_trek_into_darkness/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771190753/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771190753/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771190753/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771190753/similar.json"}},{"id":"771265738","title":"Peeples","year":2013,"mpaa_rating":"PG-13","runtime":94,"critics_consensus":"Peeples is a warm, amiable farce that offers a few chuckles but mostly falls back on predictable plotting and an overwrought message.","release_dates":{"theater":"2013-05-10","dvd":"2013-09-10"},"ratings":{"critics_rating":"Rotten","critics_score":35,"audience_rating":"Spilled","audience_score":54},"synopsis":"Sparks fly in the Hamptons when \"regular guy\" Wade Walker (Craig Robinson) crashes the preppy Peeples family reunion to ask for their precious daughter Grace's (Kerry Washington) hand in marriage. Wade might be a fish out of water among this picture-perfect East Coast clan always trying to keep up appearances, but he's not about to let himself sink. Instead, in a wild weekend of fun, dysfunction and hilarious surprises, Wade is about to discover there's room for all kinds of Peeples in this family, no matter their differences. Writer and first-time director Tina Gordon Chism (writer of DRUMLINE) joins forces with Tyler Perry to present a laugh-out-loud look at the family ties that freak us out . . . but bind us together with love. (c) Lionsgate","posters":{"thumbnail":"http://content9.flixster.com/movie/11/17/09/11170931_mob.jpg","profile":"http://content9.flixster.com/movie/11/17/09/11170931_pro.jpg","detailed":"http://content9.flixster.com/movie/11/17/09/11170931_det.jpg","original":"http://content9.flixster.com/movie/11/17/09/11170931_ori.jpg"},"abridged_cast":[{"name":"Craig Robinson","id":"770679920","characters":["Wade Walker"]},{"name":"Kerry Washington","id":"162682773","characters":["Grace Peeples"]},{"name":"David Alan Grier","id":"162671457","characters":["Virgil Peeples"]},{"name":"S. Epatha Merkerson","id":"162664326","characters":["Daphne Peeples"]},{"name":"Tyler James Williams","id":"414200669","characters":["Simon Peeples"]}],"alternate_ids":{"imdb":"1699755"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771265738.json","alternate":"http://www.rottentomatoes.com/m/peeples/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771265738/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771265738/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771265738/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771265738/similar.json"}},{"id":"771267237","title":"Chasing Ice","year":2012,"mpaa_rating":"PG-13","runtime":74,"release_dates":{"theater":"2012-11-09","dvd":"2013-09-10"},"ratings":{"critics_rating":"Certified Fresh","critics_score":96,"audience_rating":"Upright","audience_score":83},"synopsis":"Acclaimed National Geographic photographer James Balog was once a skeptic about climate change. But through his Extreme Ice Survey, he discovers undeniable evidence of our changing planet. In Chasing Ice, Balog deploys revolutionary time-lapse cameras to capture a multi-year record of the world's changing glaciers. His hauntingly beautiful videos compress years into seconds and capture ancient mountains of ice in motion as they disappear at a breathtaking rate. Traveling with a team of young adventurers across the brutal Arctic, Balog risks his career and his well-being in pursuit of the biggest story facing humanity. As the debate polarizes America, and the intensity of natural disasters ramps up globally, Chasing Ice depicts a heroic photojournalist on a mission to deliver fragile hope to our carbon-powered planet. -- (C) Submarine","posters":{"thumbnail":"http://content6.flixster.com/movie/11/16/71/11167188_mob.jpg","profile":"http://content6.flixster.com/movie/11/16/71/11167188_pro.jpg","detailed":"http://content6.flixster.com/movie/11/16/71/11167188_det.jpg","original":"http://content6.flixster.com/movie/11/16/71/11167188_ori.jpg"},"abridged_cast":[{"name":"James Balog","id":"770862497","characters":["James"]},{"name":"Svavar Jonatansson","id":"771394541","characters":["Svavar Jonatansson"]},{"name":"Adam LeWinter","id":"771394542","characters":["Adam LeWinter"]},{"name":"Jeff Orlowski","id":"771393140","characters":["Jeff Orlowski"]},{"name":"Tad Pfeffer","id":"771426741","characters":["Tad Pfeffer"]}],"alternate_ids":{"imdb":"1579361"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771267237.json","alternate":"http://www.rottentomatoes.com/m/chasing_ice_2012/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771267237/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771267237/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771267237/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771267237/similar.json"}},{"id":"771315449","title":"Love Is All You Need","year":2013,"mpaa_rating":"R","runtime":116,"critics_consensus":"Undeniably slight and fluffy, Love Is All You Need is redeemed by its picturesque setting and warm performances by Pierce Brosnan and Trine Dyrholm.","release_dates":{"theater":"2013-05-03","dvd":"2013-09-10"},"ratings":{"critics_rating":"Certified Fresh","critics_score":75,"audience_rating":"Upright","audience_score":60},"synopsis":"LOVE IS ALL YOU NEED is directed by Golden Globe (R) and Oscar (R) winning filmmaker Susanne Bier, written by Bier and Anders Thomas Jensen and starring Pierce Brosnan and Trine Dyrholm. Philip (Brosnan), an Englishman living in Denmark, is a lonely, middle-aged widower and estranged single father. Ida (Dyrholm) is a Danish hairdresser, recuperating from a long bout of illness, who's just been left by her husband for a younger woman, Thilde. The fates of these two bruised souls are about to intertwine, as they embark for a trip to Italy to attend the wedding of Patrick and Astrid, Philip's son and Ida's daughter. With warmth, affection and confidence, Susanne Bier has shaken a cocktail of love, loss, absurdity, humor, and delicately drawn characters that will leave only the hardest heart untouched. It is a film about the simple yet profound pains and joys of moving on - and forward - with your life. (c) Sony Classics","posters":{"thumbnail":"http://content8.flixster.com/movie/11/17/11/11171146_mob.jpg","profile":"http://content8.flixster.com/movie/11/17/11/11171146_pro.jpg","detailed":"http://content8.flixster.com/movie/11/17/11/11171146_det.jpg","original":"http://content8.flixster.com/movie/11/17/11/11171146_ori.jpg"},"abridged_cast":[{"name":"Pierce Brosnan","id":"162663451","characters":["Philip"]},{"name":"Trine Dyrholm","id":"364602758","characters":["Ida"]},{"name":"Molly Blixt Egelind","id":"770811689","characters":["Astrid"]},{"name":"Sebastian Jessen","id":"770829793","characters":["Patrick"]},{"name":"Paprika Steen","id":"162654200","characters":["Benedikte"]}],"alternate_ids":{"imdb":"1854236"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315449.json","alternate":"http://www.rottentomatoes.com/m/love_is_all_you_need/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315449/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315449/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315449/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315449/similar.json"}},{"id":"771353125","title":"Hammer Of The Gods","year":2013,"mpaa_rating":"R","runtime":99,"release_dates":{"theater":"2013-07-05","dvd":"2013-09-10"},"ratings":{"critics_rating":"Rotten","critics_score":30,"audience_rating":"Spilled","audience_score":23},"synopsis":"Set in Viking Britain in 871 AD, Hammer of the Gods is a visceral, intense tale set in a world whose only language is violence. A young Viking warrior, Steinar (Charlie Bewley), is sent by his father the king on a quest to find his estranged brother, who was banished from the kingdom many years before. Steinar's epic journey across terrifyingly hostile territory gradually sees him emerge as the man his father wants him to be - the ruthless and unforgiving successor to his throne. (c) Magnolia","posters":{"thumbnail":"http://content7.flixster.com/movie/11/17/07/11170749_mob.jpg","profile":"http://content7.flixster.com/movie/11/17/07/11170749_pro.jpg","detailed":"http://content7.flixster.com/movie/11/17/07/11170749_det.jpg","original":"http://content7.flixster.com/movie/11/17/07/11170749_ori.jpg"},"abridged_cast":[{"name":"Charlie Bewley","id":"770921120","characters":["Steinar"]},{"name":"Elliot Cowan","id":"770743413","characters":["Hakan"]},{"name":"Clive Standen","id":"771055404","characters":["Hagen"]},{"name":"Michael Jibson","id":"770825848","characters":["Grim"]},{"name":"Guy Flanagan","id":"770868063","characters":["Jokul"]}],"alternate_ids":{"imdb":"2193418"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771353125.json","alternate":"http://www.rottentomatoes.com/m/hammer_of_the_gods_2013/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771353125/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771353125/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771353125/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771353125/similar.json"}},{"id":"771245005","title":"Now You See Me","year":2013,"mpaa_rating":"PG-13","runtime":115,"critics_consensus":"Now You See Me's thinly sketched characters and scattered plot rely on sleight of hand from the director to distract audiences.","release_dates":{"theater":"2013-05-31","dvd":"2013-09-03"},"ratings":{"critics_rating":"Rotten","critics_score":49,"audience_rating":"Upright","audience_score":72},"synopsis":"NOW YOU SEE ME pits an elite FBI squad in a game of cat and mouse against \"The Four Horsemen\", a super-team of the world's greatest illusionists. \"The Four Horsemen\" pull off a series of daring heists against corrupt business leaders during their performances, showering the stolen profits on their audiences while staying one step ahead of the law. (c) Summit/Lionsgate","posters":{"thumbnail":"http://content7.flixster.com/movie/11/17/30/11173029_mob.jpg","profile":"http://content7.flixster.com/movie/11/17/30/11173029_pro.jpg","detailed":"http://content7.flixster.com/movie/11/17/30/11173029_det.jpg","original":"http://content7.flixster.com/movie/11/17/30/11173029_ori.jpg"},"abridged_cast":[{"name":"Jesse Eisenberg","id":"162654393","characters":["J. Daniel Atlas"]},{"name":"Mark Ruffalo","id":"162653904","characters":["Dylan Rhodes"]},{"name":"Woody Harrelson","id":"162654250","characters":["Merritt McKinney"]},{"name":"Melanie Laurent","id":"351527317","characters":["Alma Dray"]},{"name":"Isla Fisher","id":"162652839","characters":["Henley Reeves"]}],"alternate_ids":{"imdb":"1670345"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245005.json","alternate":"http://www.rottentomatoes.com/m/now_you_see_me/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245005/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245005/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245005/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771245005/similar.json"}},{"id":"771302901","title":"The Iceman","year":2013,"mpaa_rating":"R","runtime":105,"critics_consensus":"While it deserved stronger direction and a more fully realized script, Michael Shannon's riveting performance in the title role is more than enough to make The Iceman recommended viewing.","release_dates":{"theater":"2013-05-03","dvd":"2013-09-03"},"ratings":{"critics_rating":"Fresh","critics_score":67,"audience_rating":"Upright","audience_score":67},"synopsis":"Inspired by actual events, The Iceman follows notorious contract killer Richard Kuklinski (Academy Award (R) nominee Michael Shannon) from his early days in the mob until his arrest for the murder of more than 100 men. Appearing to be living the American dream as a devoted husband and father; in reality Kuklinski was a ruthless killer-for-hire. When finally arrested in 1986, neither his wife nor daughters have any clue about his real profession.(c) Millennium","posters":{"thumbnail":"http://content9.flixster.com/movie/11/16/41/11164167_mob.jpg","profile":"http://content9.flixster.com/movie/11/16/41/11164167_pro.jpg","detailed":"http://content9.flixster.com/movie/11/16/41/11164167_det.jpg","original":"http://content9.flixster.com/movie/11/16/41/11164167_ori.jpg"},"abridged_cast":[{"name":"Michael Shannon","id":"368451324","characters":["Richard Kuklinski"]},{"name":"Winona Ryder","id":"162659115","characters":["Deborah Pellicotti"]},{"name":"Chris Evans","id":"162652784","characters":["Mr. Freezy"]},{"name":"Ray Liotta","id":"162669095","characters":["Roy Demeo"]},{"name":"David Schwimmer","id":"162655237","characters":["Josh Rosenthal"]}],"alternate_ids":{"imdb":"1491044"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771302901.json","alternate":"http://www.rottentomatoes.com/m/the_iceman_2013/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771302901/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771302901/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771302901/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771302901/similar.json"}},{"id":"771196654","title":"Stories We Tell","year":2013,"mpaa_rating":"PG-13","runtime":108,"critics_consensus":"In Stories We Tell, Sarah Polley plays with the documentary format to explore the nature of memory and storytelling, crafting a thoughtful, compelling narrative that unfolds like a mystery,","release_dates":{"theater":"2013-05-10","dvd":"2013-09-03"},"ratings":{"critics_rating":"Certified Fresh","critics_score":95,"audience_rating":"Upright","audience_score":81},"synopsis":"In this inspired, genre-twisting new film, Oscar (R)-nominated writer/director Sarah Polley discovers that the truth depends on who's telling it. Polley is both filmmaker and detective as she investigates the secrets kept by a family of storytellers. She playfully interviews and interrogates a cast of characters of varying reliability, eliciting refreshingly candid, yet mostly contradictory, answers to the same questions. As each relates their version of the family mythology, present-day recollections shift into nostalgia-tinged glimpses of their mother, who departed too soon, leaving a trail of unanswered questions. Polley unravels the paradoxes to reveal the essence of family: always complicated, warmly messy and fiercely loving. Stories We Tell explores the elusive nature of truth and memory, but at its core is a deeply personal film about how our narratives shape and define us as individuals and families, all interconnecting to paint a profound, funny and poignant picture of the larger human story. (c) Roadside Attractions","posters":{"thumbnail":"http://content9.flixster.com/movie/11/17/07/11170747_mob.jpg","profile":"http://content9.flixster.com/movie/11/17/07/11170747_pro.jpg","detailed":"http://content9.flixster.com/movie/11/17/07/11170747_det.jpg","original":"http://content9.flixster.com/movie/11/17/07/11170747_ori.jpg"},"abridged_cast":[{"name":"Michael Polley","id":"770789343","characters":["Narrator","Storyteller"]},{"name":"Harry Gulkin","id":"770964533","characters":["Storyteller"]},{"name":"Susy Buchan","id":"771423629","characters":["Storyteller"]},{"name":"John Buchan","id":"771142550","characters":["Storyteller"]},{"name":"Mark Polley","id":"771059174","characters":["Storyteller"]}],"alternate_ids":{"imdb":"2366450"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771196654.json","alternate":"http://www.rottentomatoes.com/m/stories_we_tell/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771196654/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771196654/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771196654/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771196654/similar.json"}},{"id":"771210038","title":"The Lords of Salem","year":2013,"mpaa_rating":"R","runtime":101,"critics_consensus":"The Lords of Salem has lots of atmospheric portent, but it's unfortunately short on scares.","release_dates":{"theater":"2013-04-19","dvd":"2013-09-03"},"ratings":{"critics_rating":"Rotten","critics_score":47,"audience_rating":"Spilled","audience_score":34},"synopsis":"From the singular mind of horror maestro Rob Zombie comes a chilling plunge into a nightmare world where evil runs in the blood. The Lords of Salem tells the tale of Heidi (Sheri Moon Zombie), a radio station DJ living in Salem, Massachusetts, who receives a strange wooden box containing a record, a \"gift from the Lords.\" Heidi listens, and the bizarre sounds within the grooves immediately trigger flashbacks of the town's violent past. Is Heidi going mad, or are the \"Lords of Salem\" returning for revenge on modern-day Salem? (c) Anchor Bay","posters":{"thumbnail":"http://content9.flixster.com/movie/11/17/29/11172999_mob.jpg","profile":"http://content9.flixster.com/movie/11/17/29/11172999_pro.jpg","detailed":"http://content9.flixster.com/movie/11/17/29/11172999_det.jpg","original":"http://content9.flixster.com/movie/11/17/29/11172999_ori.jpg"},"abridged_cast":[{"name":"Sheri Moon Zombie","id":"770902639","characters":["Heidi","Heidi Hawthorne"]},{"name":"Bruce Davison","id":"162654345","characters":["Francis Matthais"]},{"name":"Jeff Daniel Phillips","id":"771070518","characters":["Herman \"Whitey\" Salvador"]},{"name":"Judy Geeson","id":"359855293","characters":["Lacy Doyle"]},{"name":"Meg Foster","id":"162691482","characters":["Margaret Morgan"]}],"alternate_ids":{"imdb":"1731697"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771210038.json","alternate":"http://www.rottentomatoes.com/m/the_lords_of_salem/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771210038/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771210038/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771210038/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771210038/similar.json"}},{"id":"771253145","title":"From Up On Poppy Hill","year":2013,"mpaa_rating":"PG","runtime":91,"critics_consensus":"Gentle and nostalgic, From Up on Poppy Hill is one of Studio Ghibli's sweeter efforts -- and if it doesn't push the boundaries of the genre, it remains as engagingly lovely as Ghibli fans have come to expect.","release_dates":{"theater":"2013-03-15","dvd":"2013-09-03"},"ratings":{"critics_rating":"Certified Fresh","critics_score":83,"audience_rating":"Upright","audience_score":77},"synopsis":"The setting is Yokohama in 1963, and the filmmakers lovingly bring to life the bustling seaside town, with its misty harbor, sun-drenched gardens, shops and markets, and some of the most mouthwatering Japanese home-cooking set to film. The story centers on an innocent romance beginning to bud between Umi and Shun, two high school kids caught up in the changing times. Japan is picking itself up from the devastation of World War II and preparing to host the 1964 Olympics - and the mood is one of both optimism and conflict as the young generation struggles to throw off the shackles of a troubled past. While the children work together to save a dilapidated Meiji era club house from demolition, their tentative relationship begins to blossom. But - in an unexpected twist that parallels what the country itself is facing - a buried secret from their past emerges to cast a shadow on the future and pull them apart. (c) GKids","posters":{"thumbnail":"http://content6.flixster.com/movie/11/16/90/11169040_mob.jpg","profile":"http://content6.flixster.com/movie/11/16/90/11169040_pro.jpg","detailed":"http://content6.flixster.com/movie/11/16/90/11169040_det.jpg","original":"http://content6.flixster.com/movie/11/16/90/11169040_ori.jpg"},"abridged_cast":[{"name":"Sarah Bolger","id":"395113239","characters":["Umi (English language version)"]},{"name":"Masami Nagasawa","id":"364618157","characters":["Umi (Japanese language version)"]},{"name":"Isabelle Fuhrman","id":"528347757","characters":["Sora (English language version)"]},{"name":"Haruza Shiraishi","id":"771439966","characters":["Sora (Japanese language version)"]},{"name":"Anton Yelchin","id":"162673323","characters":["Shun (English language version)"]}],"alternate_ids":{"imdb":"1798188"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771253145.json","alternate":"http://www.rottentomatoes.com/m/from_up_on_poppy_hill/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771253145/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771253145/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771253145/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771253145/similar.json"}},{"id":"771240552","title":"The Great Gatsby","year":2013,"mpaa_rating":"PG-13","runtime":142,"critics_consensus":"While certainly ambitious -- and every bit as visually dazzling as one might expect -- Baz Luhrmann's The Great Gatsby emphasizes visual splendor at the expense of its source material's vibrant heart.","release_dates":{"theater":"2013-05-10","dvd":"2013-08-27"},"ratings":{"critics_rating":"Rotten","critics_score":49,"audience_rating":"Upright","audience_score":70},"synopsis":"\"The Great Gatsby\" follows Fitzgerald-like, would-be writer Nick Carraway (Tobey Maguire) as he leaves the Midwest and comes to New York City in the spring of 1922, an era of loosening morals, glittering jazz, bootleg kings, and sky-rocketing stocks. Chasing his own American Dream, Nick lands next door to a mysterious, party-giving millionaire, Jay Gatsby (Leonardo DiCaprio), and across the bay from his cousin, Daisy (Carey Mulligan), and her philandering, blue-blooded husband, Tom Buchanan (Joel Edgerton). It is thus that Nick is drawn into the captivating world of the super rich, their illusions, loves and deceits. As Nick bears witness, within and without of the world he inhabits, he pens a tale of impossible love, incorruptible dreams and high-octane tragedy, and holds a mirror to our own modern times and struggles. -- (C) WB","posters":{"thumbnail":"http://content6.flixster.com/movie/11/17/25/11172588_mob.jpg","profile":"http://content6.flixster.com/movie/11/17/25/11172588_pro.jpg","detailed":"http://content6.flixster.com/movie/11/17/25/11172588_det.jpg","original":"http://content6.flixster.com/movie/11/17/25/11172588_ori.jpg"},"abridged_cast":[{"name":"Leonardo DiCaprio","id":"162659161","characters":["Jay Gatsby"]},{"name":"Tobey Maguire","id":"162660340","characters":["Nick Carraway"]},{"name":"Carey Mulligan","id":"770678627","characters":["Daisy Buchanan"]},{"name":"Isla Fisher","id":"162652839","characters":["Myrtle","Myrtle Wilson"]},{"name":"Joel Edgerton","id":"162733204","characters":["Tom Buchanan"]}],"alternate_ids":{"imdb":"1343092"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771240552.json","alternate":"http://www.rottentomatoes.com/m/the_great_gatsby_2013/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771240552/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771240552/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771240552/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771240552/similar.json"}},{"id":"771269751","title":"Pain & Gain","year":2013,"mpaa_rating":"R","runtime":129,"critics_consensus":"It may be his most thought-provoking film to date, but Michael Bay's Pain & Gain ultimately loses its satirical edge in a stylized flurry of violent spectacle.","release_dates":{"theater":"2013-04-26","dvd":"2013-08-27"},"ratings":{"critics_rating":"Rotten","critics_score":49,"audience_rating":"Spilled","audience_score":51},"synopsis":"From acclaimed director Michael Bay comes \"Pain and Gain,\" a new action comedy starring Mark Wahlberg, Dwayne Johnson and Anthony Mackie. Based on the unbelievable true story of a group of personal trainers in 1990s Miami who, in pursuit of the American Dream, get caught up in a criminal enterprise that goes horribly wrong. (c) Official Site","posters":{"thumbnail":"http://content9.flixster.com/movie/11/17/26/11172651_mob.jpg","profile":"http://content9.flixster.com/movie/11/17/26/11172651_pro.jpg","detailed":"http://content9.flixster.com/movie/11/17/26/11172651_det.jpg","original":"http://content9.flixster.com/movie/11/17/26/11172651_ori.jpg"},"abridged_cast":[{"name":"Mark Wahlberg","id":"162653181","characters":["Daniel Lugo"]},{"name":"Dwayne \"The Rock\" Johnson","id":"770893686","characters":["Paul Doyle"]},{"name":"Anthony Mackie","id":"162653786","characters":["Adrian Doorbal"]},{"name":"Tony Shalhoub","id":"162672712","characters":["Victor Kershaw"]},{"name":"Ed Harris","id":"162654543","characters":["Ed Du Bois","Ed Dubois"]}],"alternate_ids":{"imdb":"1980209"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771269751.json","alternate":"http://www.rottentomatoes.com/m/pain_and_gain/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771269751/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771269751/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771269751/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771269751/similar.json"}},{"id":"771315039","title":"Kon Tiki","year":2013,"mpaa_rating":"PG-13","runtime":101,"critics_consensus":"A well-crafted retelling of an epic true story, Kon Tiki is a throwback to old-school adventure filmmaking that's exciting and entertaining in spite of its by-the-book plotting.","release_dates":{"theater":"2013-04-26","dvd":"2013-08-27"},"ratings":{"critics_rating":"Certified Fresh","critics_score":84,"audience_rating":"Upright","audience_score":79},"synopsis":"Norwegian explorer Thor Heyerdahl crossed the Pacific ocean in a balsa wood raft in 1947, together with five men, to prove that South Americans already back in pre-Columbian times could have crossed the sea and settle on Polynesian islands. After gathering financing for the trip with loans and donations, they set off on an epic 101 day-long journey across 8,000 kilometers, all while the world was watching. KON-TIKI tells about the origin of Heyerdahl's idea and the events surrounding the group's voyage.(c) Weinstein","posters":{"thumbnail":"http://content7.flixster.com/movie/11/16/76/11167601_mob.jpg","profile":"http://content7.flixster.com/movie/11/16/76/11167601_pro.jpg","detailed":"http://content7.flixster.com/movie/11/16/76/11167601_det.jpg","original":"http://content7.flixster.com/movie/11/16/76/11167601_ori.jpg"},"abridged_cast":[{"name":"Pal Sverre Hagen","id":"771047979","characters":["Heyerdahl","Thor Heyerdahl"]},{"name":"Anders Baasmo Christiansen","id":"770673843","characters":["Herman Watzinger"]},{"name":"Jakob Oftebro","id":"771418783","characters":["Torstein Raaby"]},{"name":"Tobias Santelmann","id":"771418782","characters":["Knut Haugland"]},{"name":"Odd Magnus Williamson","id":"771024099","characters":["Erik Hesselberg"]}],"alternate_ids":{"imdb":"1613750"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315039.json","alternate":"http://www.rottentomatoes.com/m/kon_tiki_2012/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315039/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315039/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315039/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315039/similar.json"}},{"id":"771315337","title":"The Reluctant Fundamentalist","year":2013,"mpaa_rating":"R","runtime":128,"critics_consensus":"The Reluctant Fundamentalist is technically proficient, with solid acting and cinematography, but its message is so ambitious and heavy-handed that some of its power is robbed.","release_dates":{"theater":"2013-04-26","dvd":"2013-08-27"},"ratings":{"critics_rating":"Rotten","critics_score":55,"audience_rating":"Upright","audience_score":68},"synopsis":"We begin in 2011 in Lahore. At an outdoor cafe a Pakistani man named Changez (Riz Ahmed) tells Bobby (Liev Schreiber), an American journalist, about his experiences in the United States. Roll back ten years, and we find a younger Changez fresh from Princeton, seeking fortune and glory on Wall Street. The American Dream seems well within his grasp, complete with a smart and gorgeous artist girlfriend, Erica (Kate Hudson). But when the Twin Towers are attacked, a cultural divide slowly begins to crack open between Changez and Erica. Changez's dream soon begins to slip into nightmare: profiled, wrongfully arrested, strip-searched and interrogated, he is transformed from a well-educated, upwardly mobile businessman to a scapegoat and perceived enemy. With time, he begins to hear the call of his own homeland. Taking us through the culturally rich and beguiling worlds of New York, Lahore and Istanbul, The Reluctant Fundamentalist is a story about conflicting ideologies where perception and suspicion have the power to determine life or death. (c) IFC Films","posters":{"thumbnail":"http://content9.flixster.com/movie/11/16/95/11169507_mob.jpg","profile":"http://content9.flixster.com/movie/11/16/95/11169507_pro.jpg","detailed":"http://content9.flixster.com/movie/11/16/95/11169507_det.jpg","original":"http://content9.flixster.com/movie/11/16/95/11169507_ori.jpg"},"abridged_cast":[{"name":"Kate Hudson","id":"162653218"},{"name":"Kiefer Sutherland","id":"162657285"},{"name":"Nelsan Ellis","id":"770794107"},{"name":"Liev Schreiber","id":"162653994"},{"name":"Martin Donovan","id":"162720263"}],"alternate_ids":{"imdb":"2032557"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315337.json","alternate":"http://www.rottentomatoes.com/m/the_reluctant_fundamentalist_2012/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315337/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315337/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315337/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315337/similar.json"}},{"id":"771315419","title":"At Any Price","year":2012,"mpaa_rating":"R","runtime":105,"critics_consensus":"At Any Price features a terrific performance from Dennis Quaid, and it offers further evidence of Ramin Bahrani's unique eye for detail, but film is weighted down by an overly melodramatic story.","release_dates":{"theater":"2013-04-24","dvd":"2013-08-27"},"ratings":{"critics_rating":"Rotten","critics_score":50,"audience_rating":"Spilled","audience_score":40},"synopsis":"In the competitive world of modern agriculture, ambitious HENRY WHIPPLE (Dennis Quaid) wants his rebellious son DEAN (Zac Efron) to help expand his family's farming empire. However, Dean has his sights set on becoming a professional race car driver. When a high-stakes investigation into their business is exposed, father and son are pushed into an unexpected crisis that threatens the family's entire livelihood. (c) Sony Classics","posters":{"thumbnail":"http://content9.flixster.com/movie/11/16/99/11169955_mob.jpg","profile":"http://content9.flixster.com/movie/11/16/99/11169955_pro.jpg","detailed":"http://content9.flixster.com/movie/11/16/99/11169955_det.jpg","original":"http://content9.flixster.com/movie/11/16/99/11169955_ori.jpg"},"abridged_cast":[{"name":"Dennis Quaid","id":"162655527","characters":["Henry Whipple"]},{"name":"Zac Efron","id":"171852647","characters":["Dean Whipple"]},{"name":"Kim Dickens","id":"162740183","characters":["Irene Whipple"]},{"name":"Heather Graham","id":"162666085","characters":["Meredith Crown"]},{"name":"Clancy Brown","id":"162663805","characters":["Jim Johnson"]}],"alternate_ids":{"imdb":"1937449"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315419.json","alternate":"http://www.rottentomatoes.com/m/at_any_price_2012/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315419/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315419/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315419/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/771315419/similar.json"}},{"id":"770771666","title":"Scary Movie 5","year":2013,"mpaa_rating":"PG-13","runtime":2,"critics_consensus":"Juvenile even by Scary Movie standards, this fifth installment offers stale pop culture gags that generate few laughs.","release_dates":{"theater":"2013-04-12","dvd":"2013-08-20"},"ratings":{"critics_rating":"Rotten","critics_score":4,"audience_rating":"Spilled","audience_score":51},"synopsis":"The latest installment of the SCARY MOVIE franchise includes send ups of PARANORMAL ACTIVITY, MAMA, SINISTER, THE EVIL DEAD, INCEPTION, BLACK SWAN and pop culture featuring Ashley Tisdale, Charlie Sheen, Lindsay Lohan, Snoop Dogg, Katt Williams, Molly Shannon, Terry Crews, Simon Rex, Jerry O'Connell, Sarah Hyland, Katrina Bowden, Tyler Posey, Shad Moss aka Bow Wow, Kate Walsh, Heather Locklear, Mac Miller and Mike Tyson. SCARY MOVIE V is directed by Malcolm Lee who teamed up and worked side by side with legendary comedy director David Zucker (AIRPLANE, THE NAKED GUN franchises). Zucker wrote and directed SCARY MOVIE 3 and 4 and also co-wrote and produced SCARY MOVIE V. The SCARY MOVIE franchise, which lampoons the greatest in horror and genre fare, has grossed over $800 million worldwide. (c) Weinstein","posters":{"thumbnail":"http://content9.flixster.com/movie/11/17/26/11172647_mob.jpg","profile":"http://content9.flixster.com/movie/11/17/26/11172647_pro.jpg","detailed":"http://content9.flixster.com/movie/11/17/26/11172647_det.jpg","original":"http://content9.flixster.com/movie/11/17/26/11172647_ori.jpg"},"abridged_cast":[{"name":"Ashley Tisdale","id":"171852650","characters":["Jody"]},{"name":"Simon Rex","id":"326396232"},{"name":"Erica Ash","id":"770794869"},{"name":"Katrina Bowden","id":"770791690"},{"name":"Terry Crews","id":"326392465"}],"alternate_ids":{"imdb":"0795461"},"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/movies/770771666.json","alternate":"http://www.rottentomatoes.com/m/scary_movie_5/","cast":"http://api.rottentomatoes.com/api/public/v1.0/movies/770771666/cast.json","clips":"http://api.rottentomatoes.com/api/public/v1.0/movies/770771666/clips.json","reviews":"http://api.rottentomatoes.com/api/public/v1.0/movies/770771666/reviews.json","similar":"http://api.rottentomatoes.com/api/public/v1.0/movies/770771666/similar.json"}}],"links":{"self":"http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/new_releases.json?page_limit=16&country=us&page=1","next":"http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/new_releases.json?page_limit=16&country=us&page=2","alternate":"http://www.rottentomatoes.com/dvd/new_releases.php"},"link_template":"http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/new_releases.json?page_limit={results-per-page}&page={page-number}&country={country-code}"}
+{
+  "total": 50,
+  "movies": [
+    {
+      "id": "771190753",
+      "title": "Star Trek Into Darkness",
+      "year": 2013,
+      "mpaa_rating": "PG-13",
+      "runtime": 131,
+      "critics_consensus": "Visually spectacular and suitably action packed, Star Trek Into Darkness is a rock-solid installment in the venerable sci-fi franchise, even if it's not as fresh as its predecessor.",
+      "release_dates": {
+        "theater": "2013-05-16",
+        "dvd": "2013-09-10"
+      },
+      "ratings": {
+        "critics_rating": "Certified Fresh",
+        "critics_score": 87,
+        "audience_rating": "Upright",
+        "audience_score": 91
+      },
+      "synopsis": "In Summer 2013, pioneering director J.J. Abrams will deliver an explosive action thriller that takes 'Star Trek Into Darkness.' When the crew of the Enterprise is called back home, they find an unstoppable force of terror from within their own organization has detonated the fleet and everything it stands for, leaving our world in a state of crisis. With a personal score to settle, Captain Kirk leads a manhunt to a war-zone world to capture a one man weapon of mass destruction. As our heroes are propelled into an epic chess game of life and death, love will be challenged, friendships will be torn apart, and sacrifices must be made for the only family Kirk has left: his crew. (c) Paramount",
+      "posters": {
+        "thumbnail": "http:\/\/content7.flixster.com\/movie\/11\/17\/30\/11173001_mob.jpg",
+        "profile": "http:\/\/content7.flixster.com\/movie\/11\/17\/30\/11173001_pro.jpg",
+        "detailed": "http:\/\/content7.flixster.com\/movie\/11\/17\/30\/11173001_det.jpg",
+        "original": "http:\/\/content7.flixster.com\/movie\/11\/17\/30\/11173001_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Chris Pine",
+          "id": "326393041",
+          "characters": [
+            "Kirk"
+          ]
+        },
+        {
+          "name": "Zachary Quinto",
+          "id": "770678894",
+          "characters": [
+            "Spock"
+          ]
+        },
+        {
+          "name": "Zoe Saldana",
+          "id": "162660050",
+          "characters": [
+            "Uhura"
+          ]
+        },
+        {
+          "name": "Karl Urban",
+          "id": "162654704",
+          "characters": [
+            "Bones"
+          ]
+        },
+        {
+          "name": "Simon Pegg",
+          "id": "162684057",
+          "characters": [
+            "Scotty"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1408101"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771190753.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/star_trek_into_darkness\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771190753\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771190753\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771190753\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771190753\/similar.json"
+      }
+    },
+    {
+      "id": "771265738",
+      "title": "Peeples",
+      "year": 2013,
+      "mpaa_rating": "PG-13",
+      "runtime": 94,
+      "critics_consensus": "Peeples is a warm, amiable farce that offers a few chuckles but mostly falls back on predictable plotting and an overwrought message.",
+      "release_dates": {
+        "theater": "2013-05-10",
+        "dvd": "2013-09-10"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 35,
+        "audience_rating": "Spilled",
+        "audience_score": 54
+      },
+      "synopsis": "Sparks fly in the Hamptons when \"regular guy\" Wade Walker (Craig Robinson) crashes the preppy Peeples family reunion to ask for their precious daughter Grace's (Kerry Washington) hand in marriage. Wade might be a fish out of water among this picture-perfect East Coast clan always trying to keep up appearances, but he's not about to let himself sink. Instead, in a wild weekend of fun, dysfunction and hilarious surprises, Wade is about to discover there's room for all kinds of Peeples in this family, no matter their differences. Writer and first-time director Tina Gordon Chism (writer of DRUMLINE) joins forces with Tyler Perry to present a laugh-out-loud look at the family ties that freak us out . . . but bind us together with love. (c) Lionsgate",
+      "posters": {
+        "thumbnail": "http:\/\/content9.flixster.com\/movie\/11\/17\/09\/11170931_mob.jpg",
+        "profile": "http:\/\/content9.flixster.com\/movie\/11\/17\/09\/11170931_pro.jpg",
+        "detailed": "http:\/\/content9.flixster.com\/movie\/11\/17\/09\/11170931_det.jpg",
+        "original": "http:\/\/content9.flixster.com\/movie\/11\/17\/09\/11170931_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Craig Robinson",
+          "id": "770679920",
+          "characters": [
+            "Wade Walker"
+          ]
+        },
+        {
+          "name": "Kerry Washington",
+          "id": "162682773",
+          "characters": [
+            "Grace Peeples"
+          ]
+        },
+        {
+          "name": "David Alan Grier",
+          "id": "162671457",
+          "characters": [
+            "Virgil Peeples"
+          ]
+        },
+        {
+          "name": "S. Epatha Merkerson",
+          "id": "162664326",
+          "characters": [
+            "Daphne Peeples"
+          ]
+        },
+        {
+          "name": "Tyler James Williams",
+          "id": "414200669",
+          "characters": [
+            "Simon Peeples"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1699755"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771265738.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/peeples\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771265738\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771265738\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771265738\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771265738\/similar.json"
+      }
+    },
+    {
+      "id": "771267237",
+      "title": "Chasing Ice",
+      "year": 2012,
+      "mpaa_rating": "PG-13",
+      "runtime": 74,
+      "release_dates": {
+        "theater": "2012-11-09",
+        "dvd": "2013-09-10"
+      },
+      "ratings": {
+        "critics_rating": "Certified Fresh",
+        "critics_score": 96,
+        "audience_rating": "Upright",
+        "audience_score": 83
+      },
+      "synopsis": "Acclaimed National Geographic photographer James Balog was once a skeptic about climate change. But through his Extreme Ice Survey, he discovers undeniable evidence of our changing planet. In Chasing Ice, Balog deploys revolutionary time-lapse cameras to capture a multi-year record of the world's changing glaciers. His hauntingly beautiful videos compress years into seconds and capture ancient mountains of ice in motion as they disappear at a breathtaking rate. Traveling with a team of young adventurers across the brutal Arctic, Balog risks his career and his well-being in pursuit of the biggest story facing humanity. As the debate polarizes America, and the intensity of natural disasters ramps up globally, Chasing Ice depicts a heroic photojournalist on a mission to deliver fragile hope to our carbon-powered planet. -- (C) Submarine",
+      "posters": {
+        "thumbnail": "http:\/\/content6.flixster.com\/movie\/11\/16\/71\/11167188_mob.jpg",
+        "profile": "http:\/\/content6.flixster.com\/movie\/11\/16\/71\/11167188_pro.jpg",
+        "detailed": "http:\/\/content6.flixster.com\/movie\/11\/16\/71\/11167188_det.jpg",
+        "original": "http:\/\/content6.flixster.com\/movie\/11\/16\/71\/11167188_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "James Balog",
+          "id": "770862497",
+          "characters": [
+            "James"
+          ]
+        },
+        {
+          "name": "Svavar Jonatansson",
+          "id": "771394541",
+          "characters": [
+            "Svavar Jonatansson"
+          ]
+        },
+        {
+          "name": "Adam LeWinter",
+          "id": "771394542",
+          "characters": [
+            "Adam LeWinter"
+          ]
+        },
+        {
+          "name": "Jeff Orlowski",
+          "id": "771393140",
+          "characters": [
+            "Jeff Orlowski"
+          ]
+        },
+        {
+          "name": "Tad Pfeffer",
+          "id": "771426741",
+          "characters": [
+            "Tad Pfeffer"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1579361"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771267237.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/chasing_ice_2012\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771267237\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771267237\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771267237\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771267237\/similar.json"
+      }
+    },
+    {
+      "id": "771315449",
+      "title": "Love Is All You Need",
+      "year": 2013,
+      "mpaa_rating": "R",
+      "runtime": 116,
+      "critics_consensus": "Undeniably slight and fluffy, Love Is All You Need is redeemed by its picturesque setting and warm performances by Pierce Brosnan and Trine Dyrholm.",
+      "release_dates": {
+        "theater": "2013-05-03",
+        "dvd": "2013-09-10"
+      },
+      "ratings": {
+        "critics_rating": "Certified Fresh",
+        "critics_score": 75,
+        "audience_rating": "Upright",
+        "audience_score": 60
+      },
+      "synopsis": "LOVE IS ALL YOU NEED is directed by Golden Globe (R) and Oscar (R) winning filmmaker Susanne Bier, written by Bier and Anders Thomas Jensen and starring Pierce Brosnan and Trine Dyrholm. Philip (Brosnan), an Englishman living in Denmark, is a lonely, middle-aged widower and estranged single father. Ida (Dyrholm) is a Danish hairdresser, recuperating from a long bout of illness, who's just been left by her husband for a younger woman, Thilde. The fates of these two bruised souls are about to intertwine, as they embark for a trip to Italy to attend the wedding of Patrick and Astrid, Philip's son and Ida's daughter. With warmth, affection and confidence, Susanne Bier has shaken a cocktail of love, loss, absurdity, humor, and delicately drawn characters that will leave only the hardest heart untouched. It is a film about the simple yet profound pains and joys of moving on - and forward - with your life. (c) Sony Classics",
+      "posters": {
+        "thumbnail": "http:\/\/content8.flixster.com\/movie\/11\/17\/11\/11171146_mob.jpg",
+        "profile": "http:\/\/content8.flixster.com\/movie\/11\/17\/11\/11171146_pro.jpg",
+        "detailed": "http:\/\/content8.flixster.com\/movie\/11\/17\/11\/11171146_det.jpg",
+        "original": "http:\/\/content8.flixster.com\/movie\/11\/17\/11\/11171146_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Pierce Brosnan",
+          "id": "162663451",
+          "characters": [
+            "Philip"
+          ]
+        },
+        {
+          "name": "Trine Dyrholm",
+          "id": "364602758",
+          "characters": [
+            "Ida"
+          ]
+        },
+        {
+          "name": "Molly Blixt Egelind",
+          "id": "770811689",
+          "characters": [
+            "Astrid"
+          ]
+        },
+        {
+          "name": "Sebastian Jessen",
+          "id": "770829793",
+          "characters": [
+            "Patrick"
+          ]
+        },
+        {
+          "name": "Paprika Steen",
+          "id": "162654200",
+          "characters": [
+            "Benedikte"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1854236"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315449.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/love_is_all_you_need\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315449\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315449\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315449\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315449\/similar.json"
+      }
+    },
+    {
+      "id": "771353125",
+      "title": "Hammer Of The Gods",
+      "year": 2013,
+      "mpaa_rating": "R",
+      "runtime": 99,
+      "release_dates": {
+        "theater": "2013-07-05",
+        "dvd": "2013-09-10"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 30,
+        "audience_rating": "Spilled",
+        "audience_score": 23
+      },
+      "synopsis": "Set in Viking Britain in 871 AD, Hammer of the Gods is a visceral, intense tale set in a world whose only language is violence. A young Viking warrior, Steinar (Charlie Bewley), is sent by his father the king on a quest to find his estranged brother, who was banished from the kingdom many years before. Steinar's epic journey across terrifyingly hostile territory gradually sees him emerge as the man his father wants him to be - the ruthless and unforgiving successor to his throne. (c) Magnolia",
+      "posters": {
+        "thumbnail": "http:\/\/content7.flixster.com\/movie\/11\/17\/07\/11170749_mob.jpg",
+        "profile": "http:\/\/content7.flixster.com\/movie\/11\/17\/07\/11170749_pro.jpg",
+        "detailed": "http:\/\/content7.flixster.com\/movie\/11\/17\/07\/11170749_det.jpg",
+        "original": "http:\/\/content7.flixster.com\/movie\/11\/17\/07\/11170749_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Charlie Bewley",
+          "id": "770921120",
+          "characters": [
+            "Steinar"
+          ]
+        },
+        {
+          "name": "Elliot Cowan",
+          "id": "770743413",
+          "characters": [
+            "Hakan"
+          ]
+        },
+        {
+          "name": "Clive Standen",
+          "id": "771055404",
+          "characters": [
+            "Hagen"
+          ]
+        },
+        {
+          "name": "Michael Jibson",
+          "id": "770825848",
+          "characters": [
+            "Grim"
+          ]
+        },
+        {
+          "name": "Guy Flanagan",
+          "id": "770868063",
+          "characters": [
+            "Jokul"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "2193418"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771353125.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/hammer_of_the_gods_2013\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771353125\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771353125\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771353125\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771353125\/similar.json"
+      }
+    },
+    {
+      "id": "771245005",
+      "title": "Now You See Me",
+      "year": 2013,
+      "mpaa_rating": "PG-13",
+      "runtime": 115,
+      "critics_consensus": "Now You See Me's thinly sketched characters and scattered plot rely on sleight of hand from the director to distract audiences.",
+      "release_dates": {
+        "theater": "2013-05-31",
+        "dvd": "2013-09-03"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 49,
+        "audience_rating": "Upright",
+        "audience_score": 72
+      },
+      "synopsis": "NOW YOU SEE ME pits an elite FBI squad in a game of cat and mouse against \"The Four Horsemen\", a super-team of the world's greatest illusionists. \"The Four Horsemen\" pull off a series of daring heists against corrupt business leaders during their performances, showering the stolen profits on their audiences while staying one step ahead of the law. (c) Summit\/Lionsgate",
+      "posters": {
+        "thumbnail": "http:\/\/content7.flixster.com\/movie\/11\/17\/30\/11173029_mob.jpg",
+        "profile": "http:\/\/content7.flixster.com\/movie\/11\/17\/30\/11173029_pro.jpg",
+        "detailed": "http:\/\/content7.flixster.com\/movie\/11\/17\/30\/11173029_det.jpg",
+        "original": "http:\/\/content7.flixster.com\/movie\/11\/17\/30\/11173029_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Jesse Eisenberg",
+          "id": "162654393",
+          "characters": [
+            "J. Daniel Atlas"
+          ]
+        },
+        {
+          "name": "Mark Ruffalo",
+          "id": "162653904",
+          "characters": [
+            "Dylan Rhodes"
+          ]
+        },
+        {
+          "name": "Woody Harrelson",
+          "id": "162654250",
+          "characters": [
+            "Merritt McKinney"
+          ]
+        },
+        {
+          "name": "Melanie Laurent",
+          "id": "351527317",
+          "characters": [
+            "Alma Dray"
+          ]
+        },
+        {
+          "name": "Isla Fisher",
+          "id": "162652839",
+          "characters": [
+            "Henley Reeves"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1670345"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771245005.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/now_you_see_me\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771245005\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771245005\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771245005\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771245005\/similar.json"
+      }
+    },
+    {
+      "id": "771302901",
+      "title": "The Iceman",
+      "year": 2013,
+      "mpaa_rating": "R",
+      "runtime": 105,
+      "critics_consensus": "While it deserved stronger direction and a more fully realized script, Michael Shannon's riveting performance in the title role is more than enough to make The Iceman recommended viewing.",
+      "release_dates": {
+        "theater": "2013-05-03",
+        "dvd": "2013-09-03"
+      },
+      "ratings": {
+        "critics_rating": "Fresh",
+        "critics_score": 67,
+        "audience_rating": "Upright",
+        "audience_score": 67
+      },
+      "synopsis": "Inspired by actual events, The Iceman follows notorious contract killer Richard Kuklinski (Academy Award (R) nominee Michael Shannon) from his early days in the mob until his arrest for the murder of more than 100 men. Appearing to be living the American dream as a devoted husband and father; in reality Kuklinski was a ruthless killer-for-hire. When finally arrested in 1986, neither his wife nor daughters have any clue about his real profession.(c) Millennium",
+      "posters": {
+        "thumbnail": "http:\/\/content9.flixster.com\/movie\/11\/16\/41\/11164167_mob.jpg",
+        "profile": "http:\/\/content9.flixster.com\/movie\/11\/16\/41\/11164167_pro.jpg",
+        "detailed": "http:\/\/content9.flixster.com\/movie\/11\/16\/41\/11164167_det.jpg",
+        "original": "http:\/\/content9.flixster.com\/movie\/11\/16\/41\/11164167_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Michael Shannon",
+          "id": "368451324",
+          "characters": [
+            "Richard Kuklinski"
+          ]
+        },
+        {
+          "name": "Winona Ryder",
+          "id": "162659115",
+          "characters": [
+            "Deborah Pellicotti"
+          ]
+        },
+        {
+          "name": "Chris Evans",
+          "id": "162652784",
+          "characters": [
+            "Mr. Freezy"
+          ]
+        },
+        {
+          "name": "Ray Liotta",
+          "id": "162669095",
+          "characters": [
+            "Roy Demeo"
+          ]
+        },
+        {
+          "name": "David Schwimmer",
+          "id": "162655237",
+          "characters": [
+            "Josh Rosenthal"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1491044"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771302901.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/the_iceman_2013\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771302901\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771302901\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771302901\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771302901\/similar.json"
+      }
+    },
+    {
+      "id": "771196654",
+      "title": "Stories We Tell",
+      "year": 2013,
+      "mpaa_rating": "PG-13",
+      "runtime": 108,
+      "critics_consensus": "In Stories We Tell, Sarah Polley plays with the documentary format to explore the nature of memory and storytelling, crafting a thoughtful, compelling narrative that unfolds like a mystery,",
+      "release_dates": {
+        "theater": "2013-05-10",
+        "dvd": "2013-09-03"
+      },
+      "ratings": {
+        "critics_rating": "Certified Fresh",
+        "critics_score": 95,
+        "audience_rating": "Upright",
+        "audience_score": 81
+      },
+      "synopsis": "In this inspired, genre-twisting new film, Oscar (R)-nominated writer\/director Sarah Polley discovers that the truth depends on who's telling it. Polley is both filmmaker and detective as she investigates the secrets kept by a family of storytellers. She playfully interviews and interrogates a cast of characters of varying reliability, eliciting refreshingly candid, yet mostly contradictory, answers to the same questions. As each relates their version of the family mythology, present-day recollections shift into nostalgia-tinged glimpses of their mother, who departed too soon, leaving a trail of unanswered questions. Polley unravels the paradoxes to reveal the essence of family: always complicated, warmly messy and fiercely loving. Stories We Tell explores the elusive nature of truth and memory, but at its core is a deeply personal film about how our narratives shape and define us as individuals and families, all interconnecting to paint a profound, funny and poignant picture of the larger human story. (c) Roadside Attractions",
+      "posters": {
+        "thumbnail": "http:\/\/content9.flixster.com\/movie\/11\/17\/07\/11170747_mob.jpg",
+        "profile": "http:\/\/content9.flixster.com\/movie\/11\/17\/07\/11170747_pro.jpg",
+        "detailed": "http:\/\/content9.flixster.com\/movie\/11\/17\/07\/11170747_det.jpg",
+        "original": "http:\/\/content9.flixster.com\/movie\/11\/17\/07\/11170747_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Michael Polley",
+          "id": "770789343",
+          "characters": [
+            "Narrator",
+            "Storyteller"
+          ]
+        },
+        {
+          "name": "Harry Gulkin",
+          "id": "770964533",
+          "characters": [
+            "Storyteller"
+          ]
+        },
+        {
+          "name": "Susy Buchan",
+          "id": "771423629",
+          "characters": [
+            "Storyteller"
+          ]
+        },
+        {
+          "name": "John Buchan",
+          "id": "771142550",
+          "characters": [
+            "Storyteller"
+          ]
+        },
+        {
+          "name": "Mark Polley",
+          "id": "771059174",
+          "characters": [
+            "Storyteller"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "2366450"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771196654.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/stories_we_tell\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771196654\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771196654\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771196654\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771196654\/similar.json"
+      }
+    },
+    {
+      "id": "771210038",
+      "title": "The Lords of Salem",
+      "year": 2013,
+      "mpaa_rating": "R",
+      "runtime": 101,
+      "critics_consensus": "The Lords of Salem has lots of atmospheric portent, but it's unfortunately short on scares.",
+      "release_dates": {
+        "theater": "2013-04-19",
+        "dvd": "2013-09-03"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 47,
+        "audience_rating": "Spilled",
+        "audience_score": 34
+      },
+      "synopsis": "From the singular mind of horror maestro Rob Zombie comes a chilling plunge into a nightmare world where evil runs in the blood. The Lords of Salem tells the tale of Heidi (Sheri Moon Zombie), a radio station DJ living in Salem, Massachusetts, who receives a strange wooden box containing a record, a \"gift from the Lords.\" Heidi listens, and the bizarre sounds within the grooves immediately trigger flashbacks of the town's violent past. Is Heidi going mad, or are the \"Lords of Salem\" returning for revenge on modern-day Salem? (c) Anchor Bay",
+      "posters": {
+        "thumbnail": "http:\/\/content9.flixster.com\/movie\/11\/17\/29\/11172999_mob.jpg",
+        "profile": "http:\/\/content9.flixster.com\/movie\/11\/17\/29\/11172999_pro.jpg",
+        "detailed": "http:\/\/content9.flixster.com\/movie\/11\/17\/29\/11172999_det.jpg",
+        "original": "http:\/\/content9.flixster.com\/movie\/11\/17\/29\/11172999_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Sheri Moon Zombie",
+          "id": "770902639",
+          "characters": [
+            "Heidi",
+            "Heidi Hawthorne"
+          ]
+        },
+        {
+          "name": "Bruce Davison",
+          "id": "162654345",
+          "characters": [
+            "Francis Matthais"
+          ]
+        },
+        {
+          "name": "Jeff Daniel Phillips",
+          "id": "771070518",
+          "characters": [
+            "Herman \"Whitey\" Salvador"
+          ]
+        },
+        {
+          "name": "Judy Geeson",
+          "id": "359855293",
+          "characters": [
+            "Lacy Doyle"
+          ]
+        },
+        {
+          "name": "Meg Foster",
+          "id": "162691482",
+          "characters": [
+            "Margaret Morgan"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1731697"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771210038.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/the_lords_of_salem\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771210038\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771210038\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771210038\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771210038\/similar.json"
+      }
+    },
+    {
+      "id": "771253145",
+      "title": "From Up On Poppy Hill",
+      "year": 2013,
+      "mpaa_rating": "PG",
+      "runtime": 91,
+      "critics_consensus": "Gentle and nostalgic, From Up on Poppy Hill is one of Studio Ghibli's sweeter efforts -- and if it doesn't push the boundaries of the genre, it remains as engagingly lovely as Ghibli fans have come to expect.",
+      "release_dates": {
+        "theater": "2013-03-15",
+        "dvd": "2013-09-03"
+      },
+      "ratings": {
+        "critics_rating": "Certified Fresh",
+        "critics_score": 83,
+        "audience_rating": "Upright",
+        "audience_score": 77
+      },
+      "synopsis": "The setting is Yokohama in 1963, and the filmmakers lovingly bring to life the bustling seaside town, with its misty harbor, sun-drenched gardens, shops and markets, and some of the most mouthwatering Japanese home-cooking set to film. The story centers on an innocent romance beginning to bud between Umi and Shun, two high school kids caught up in the changing times. Japan is picking itself up from the devastation of World War II and preparing to host the 1964 Olympics - and the mood is one of both optimism and conflict as the young generation struggles to throw off the shackles of a troubled past. While the children work together to save a dilapidated Meiji era club house from demolition, their tentative relationship begins to blossom. But - in an unexpected twist that parallels what the country itself is facing - a buried secret from their past emerges to cast a shadow on the future and pull them apart. (c) GKids",
+      "posters": {
+        "thumbnail": "http:\/\/content6.flixster.com\/movie\/11\/16\/90\/11169040_mob.jpg",
+        "profile": "http:\/\/content6.flixster.com\/movie\/11\/16\/90\/11169040_pro.jpg",
+        "detailed": "http:\/\/content6.flixster.com\/movie\/11\/16\/90\/11169040_det.jpg",
+        "original": "http:\/\/content6.flixster.com\/movie\/11\/16\/90\/11169040_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Sarah Bolger",
+          "id": "395113239",
+          "characters": [
+            "Umi (English language version)"
+          ]
+        },
+        {
+          "name": "Masami Nagasawa",
+          "id": "364618157",
+          "characters": [
+            "Umi (Japanese language version)"
+          ]
+        },
+        {
+          "name": "Isabelle Fuhrman",
+          "id": "528347757",
+          "characters": [
+            "Sora (English language version)"
+          ]
+        },
+        {
+          "name": "Haruza Shiraishi",
+          "id": "771439966",
+          "characters": [
+            "Sora (Japanese language version)"
+          ]
+        },
+        {
+          "name": "Anton Yelchin",
+          "id": "162673323",
+          "characters": [
+            "Shun (English language version)"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1798188"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771253145.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/from_up_on_poppy_hill\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771253145\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771253145\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771253145\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771253145\/similar.json"
+      }
+    },
+    {
+      "id": "771240552",
+      "title": "The Great Gatsby",
+      "year": 2013,
+      "mpaa_rating": "PG-13",
+      "runtime": 142,
+      "critics_consensus": "While certainly ambitious -- and every bit as visually dazzling as one might expect -- Baz Luhrmann's The Great Gatsby emphasizes visual splendor at the expense of its source material's vibrant heart.",
+      "release_dates": {
+        "theater": "2013-05-10",
+        "dvd": "2013-08-27"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 49,
+        "audience_rating": "Upright",
+        "audience_score": 70
+      },
+      "synopsis": "\"The Great Gatsby\" follows Fitzgerald-like, would-be writer Nick Carraway (Tobey Maguire) as he leaves the Midwest and comes to New York City in the spring of 1922, an era of loosening morals, glittering jazz, bootleg kings, and sky-rocketing stocks. Chasing his own American Dream, Nick lands next door to a mysterious, party-giving millionaire, Jay Gatsby (Leonardo DiCaprio), and across the bay from his cousin, Daisy (Carey Mulligan), and her philandering, blue-blooded husband, Tom Buchanan (Joel Edgerton). It is thus that Nick is drawn into the captivating world of the super rich, their illusions, loves and deceits. As Nick bears witness, within and without of the world he inhabits, he pens a tale of impossible love, incorruptible dreams and high-octane tragedy, and holds a mirror to our own modern times and struggles. -- (C) WB",
+      "posters": {
+        "thumbnail": "http:\/\/content6.flixster.com\/movie\/11\/17\/25\/11172588_mob.jpg",
+        "profile": "http:\/\/content6.flixster.com\/movie\/11\/17\/25\/11172588_pro.jpg",
+        "detailed": "http:\/\/content6.flixster.com\/movie\/11\/17\/25\/11172588_det.jpg",
+        "original": "http:\/\/content6.flixster.com\/movie\/11\/17\/25\/11172588_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Leonardo DiCaprio",
+          "id": "162659161",
+          "characters": [
+            "Jay Gatsby"
+          ]
+        },
+        {
+          "name": "Tobey Maguire",
+          "id": "162660340",
+          "characters": [
+            "Nick Carraway"
+          ]
+        },
+        {
+          "name": "Carey Mulligan",
+          "id": "770678627",
+          "characters": [
+            "Daisy Buchanan"
+          ]
+        },
+        {
+          "name": "Isla Fisher",
+          "id": "162652839",
+          "characters": [
+            "Myrtle",
+            "Myrtle Wilson"
+          ]
+        },
+        {
+          "name": "Joel Edgerton",
+          "id": "162733204",
+          "characters": [
+            "Tom Buchanan"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1343092"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771240552.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/the_great_gatsby_2013\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771240552\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771240552\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771240552\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771240552\/similar.json"
+      }
+    },
+    {
+      "id": "771269751",
+      "title": "Pain & Gain",
+      "year": 2013,
+      "mpaa_rating": "R",
+      "runtime": 129,
+      "critics_consensus": "It may be his most thought-provoking film to date, but Michael Bay's Pain & Gain ultimately loses its satirical edge in a stylized flurry of violent spectacle.",
+      "release_dates": {
+        "theater": "2013-04-26",
+        "dvd": "2013-08-27"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 49,
+        "audience_rating": "Spilled",
+        "audience_score": 51
+      },
+      "synopsis": "From acclaimed director Michael Bay comes \"Pain and Gain,\" a new action comedy starring Mark Wahlberg, Dwayne Johnson and Anthony Mackie. Based on the unbelievable true story of a group of personal trainers in 1990s Miami who, in pursuit of the American Dream, get caught up in a criminal enterprise that goes horribly wrong. (c) Official Site",
+      "posters": {
+        "thumbnail": "http:\/\/content9.flixster.com\/movie\/11\/17\/26\/11172651_mob.jpg",
+        "profile": "http:\/\/content9.flixster.com\/movie\/11\/17\/26\/11172651_pro.jpg",
+        "detailed": "http:\/\/content9.flixster.com\/movie\/11\/17\/26\/11172651_det.jpg",
+        "original": "http:\/\/content9.flixster.com\/movie\/11\/17\/26\/11172651_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Mark Wahlberg",
+          "id": "162653181",
+          "characters": [
+            "Daniel Lugo"
+          ]
+        },
+        {
+          "name": "Dwayne \"The Rock\" Johnson",
+          "id": "770893686",
+          "characters": [
+            "Paul Doyle"
+          ]
+        },
+        {
+          "name": "Anthony Mackie",
+          "id": "162653786",
+          "characters": [
+            "Adrian Doorbal"
+          ]
+        },
+        {
+          "name": "Tony Shalhoub",
+          "id": "162672712",
+          "characters": [
+            "Victor Kershaw"
+          ]
+        },
+        {
+          "name": "Ed Harris",
+          "id": "162654543",
+          "characters": [
+            "Ed Du Bois",
+            "Ed Dubois"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1980209"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771269751.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/pain_and_gain\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771269751\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771269751\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771269751\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771269751\/similar.json"
+      }
+    },
+    {
+      "id": "771315039",
+      "title": "Kon Tiki",
+      "year": 2013,
+      "mpaa_rating": "PG-13",
+      "runtime": 101,
+      "critics_consensus": "A well-crafted retelling of an epic true story, Kon Tiki is a throwback to old-school adventure filmmaking that's exciting and entertaining in spite of its by-the-book plotting.",
+      "release_dates": {
+        "theater": "2013-04-26",
+        "dvd": "2013-08-27"
+      },
+      "ratings": {
+        "critics_rating": "Certified Fresh",
+        "critics_score": 84,
+        "audience_rating": "Upright",
+        "audience_score": 79
+      },
+      "synopsis": "Norwegian explorer Thor Heyerdahl crossed the Pacific ocean in a balsa wood raft in 1947, together with five men, to prove that South Americans already back in pre-Columbian times could have crossed the sea and settle on Polynesian islands. After gathering financing for the trip with loans and donations, they set off on an epic 101 day-long journey across 8,000 kilometers, all while the world was watching. KON-TIKI tells about the origin of Heyerdahl's idea and the events surrounding the group's voyage.(c) Weinstein",
+      "posters": {
+        "thumbnail": "http:\/\/content7.flixster.com\/movie\/11\/16\/76\/11167601_mob.jpg",
+        "profile": "http:\/\/content7.flixster.com\/movie\/11\/16\/76\/11167601_pro.jpg",
+        "detailed": "http:\/\/content7.flixster.com\/movie\/11\/16\/76\/11167601_det.jpg",
+        "original": "http:\/\/content7.flixster.com\/movie\/11\/16\/76\/11167601_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Pal Sverre Hagen",
+          "id": "771047979",
+          "characters": [
+            "Heyerdahl",
+            "Thor Heyerdahl"
+          ]
+        },
+        {
+          "name": "Anders Baasmo Christiansen",
+          "id": "770673843",
+          "characters": [
+            "Herman Watzinger"
+          ]
+        },
+        {
+          "name": "Jakob Oftebro",
+          "id": "771418783",
+          "characters": [
+            "Torstein Raaby"
+          ]
+        },
+        {
+          "name": "Tobias Santelmann",
+          "id": "771418782",
+          "characters": [
+            "Knut Haugland"
+          ]
+        },
+        {
+          "name": "Odd Magnus Williamson",
+          "id": "771024099",
+          "characters": [
+            "Erik Hesselberg"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1613750"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315039.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/kon_tiki_2012\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315039\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315039\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315039\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315039\/similar.json"
+      }
+    },
+    {
+      "id": "771315337",
+      "title": "The Reluctant Fundamentalist",
+      "year": 2013,
+      "mpaa_rating": "R",
+      "runtime": 128,
+      "critics_consensus": "The Reluctant Fundamentalist is technically proficient, with solid acting and cinematography, but its message is so ambitious and heavy-handed that some of its power is robbed.",
+      "release_dates": {
+        "theater": "2013-04-26",
+        "dvd": "2013-08-27"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 55,
+        "audience_rating": "Upright",
+        "audience_score": 68
+      },
+      "synopsis": "We begin in 2011 in Lahore. At an outdoor cafe a Pakistani man named Changez (Riz Ahmed) tells Bobby (Liev Schreiber), an American journalist, about his experiences in the United States. Roll back ten years, and we find a younger Changez fresh from Princeton, seeking fortune and glory on Wall Street. The American Dream seems well within his grasp, complete with a smart and gorgeous artist girlfriend, Erica (Kate Hudson). But when the Twin Towers are attacked, a cultural divide slowly begins to crack open between Changez and Erica. Changez's dream soon begins to slip into nightmare: profiled, wrongfully arrested, strip-searched and interrogated, he is transformed from a well-educated, upwardly mobile businessman to a scapegoat and perceived enemy. With time, he begins to hear the call of his own homeland. Taking us through the culturally rich and beguiling worlds of New York, Lahore and Istanbul, The Reluctant Fundamentalist is a story about conflicting ideologies where perception and suspicion have the power to determine life or death. (c) IFC Films",
+      "posters": {
+        "thumbnail": "http:\/\/content9.flixster.com\/movie\/11\/16\/95\/11169507_mob.jpg",
+        "profile": "http:\/\/content9.flixster.com\/movie\/11\/16\/95\/11169507_pro.jpg",
+        "detailed": "http:\/\/content9.flixster.com\/movie\/11\/16\/95\/11169507_det.jpg",
+        "original": "http:\/\/content9.flixster.com\/movie\/11\/16\/95\/11169507_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Kate Hudson",
+          "id": "162653218"
+        },
+        {
+          "name": "Kiefer Sutherland",
+          "id": "162657285"
+        },
+        {
+          "name": "Nelsan Ellis",
+          "id": "770794107"
+        },
+        {
+          "name": "Liev Schreiber",
+          "id": "162653994"
+        },
+        {
+          "name": "Martin Donovan",
+          "id": "162720263"
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "2032557"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315337.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/the_reluctant_fundamentalist_2012\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315337\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315337\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315337\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315337\/similar.json"
+      }
+    },
+    {
+      "id": "771315419",
+      "title": "At Any Price",
+      "year": 2012,
+      "mpaa_rating": "R",
+      "runtime": 105,
+      "critics_consensus": "At Any Price features a terrific performance from Dennis Quaid, and it offers further evidence of Ramin Bahrani's unique eye for detail, but film is weighted down by an overly melodramatic story.",
+      "release_dates": {
+        "theater": "2013-04-24",
+        "dvd": "2013-08-27"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 50,
+        "audience_rating": "Spilled",
+        "audience_score": 40
+      },
+      "synopsis": "In the competitive world of modern agriculture, ambitious HENRY WHIPPLE (Dennis Quaid) wants his rebellious son DEAN (Zac Efron) to help expand his family's farming empire. However, Dean has his sights set on becoming a professional race car driver. When a high-stakes investigation into their business is exposed, father and son are pushed into an unexpected crisis that threatens the family's entire livelihood. (c) Sony Classics",
+      "posters": {
+        "thumbnail": "http:\/\/content9.flixster.com\/movie\/11\/16\/99\/11169955_mob.jpg",
+        "profile": "http:\/\/content9.flixster.com\/movie\/11\/16\/99\/11169955_pro.jpg",
+        "detailed": "http:\/\/content9.flixster.com\/movie\/11\/16\/99\/11169955_det.jpg",
+        "original": "http:\/\/content9.flixster.com\/movie\/11\/16\/99\/11169955_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Dennis Quaid",
+          "id": "162655527",
+          "characters": [
+            "Henry Whipple"
+          ]
+        },
+        {
+          "name": "Zac Efron",
+          "id": "171852647",
+          "characters": [
+            "Dean Whipple"
+          ]
+        },
+        {
+          "name": "Kim Dickens",
+          "id": "162740183",
+          "characters": [
+            "Irene Whipple"
+          ]
+        },
+        {
+          "name": "Heather Graham",
+          "id": "162666085",
+          "characters": [
+            "Meredith Crown"
+          ]
+        },
+        {
+          "name": "Clancy Brown",
+          "id": "162663805",
+          "characters": [
+            "Jim Johnson"
+          ]
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "1937449"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315419.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/at_any_price_2012\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315419\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315419\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315419\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/771315419\/similar.json"
+      }
+    },
+    {
+      "id": "770771666",
+      "title": "Scary Movie 5",
+      "year": 2013,
+      "mpaa_rating": "PG-13",
+      "runtime": 2,
+      "critics_consensus": "Juvenile even by Scary Movie standards, this fifth installment offers stale pop culture gags that generate few laughs.",
+      "release_dates": {
+        "theater": "2013-04-12",
+        "dvd": "2013-08-20"
+      },
+      "ratings": {
+        "critics_rating": "Rotten",
+        "critics_score": 4,
+        "audience_rating": "Spilled",
+        "audience_score": 51
+      },
+      "synopsis": "The latest installment of the SCARY MOVIE franchise includes send ups of PARANORMAL ACTIVITY, MAMA, SINISTER, THE EVIL DEAD, INCEPTION, BLACK SWAN and pop culture featuring Ashley Tisdale, Charlie Sheen, Lindsay Lohan, Snoop Dogg, Katt Williams, Molly Shannon, Terry Crews, Simon Rex, Jerry O'Connell, Sarah Hyland, Katrina Bowden, Tyler Posey, Shad Moss aka Bow Wow, Kate Walsh, Heather Locklear, Mac Miller and Mike Tyson. SCARY MOVIE V is directed by Malcolm Lee who teamed up and worked side by side with legendary comedy director David Zucker (AIRPLANE, THE NAKED GUN franchises). Zucker wrote and directed SCARY MOVIE 3 and 4 and also co-wrote and produced SCARY MOVIE V. The SCARY MOVIE franchise, which lampoons the greatest in horror and genre fare, has grossed over $800 million worldwide. (c) Weinstein",
+      "posters": {
+        "thumbnail": "http:\/\/content9.flixster.com\/movie\/11\/17\/26\/11172647_mob.jpg",
+        "profile": "http:\/\/content9.flixster.com\/movie\/11\/17\/26\/11172647_pro.jpg",
+        "detailed": "http:\/\/content9.flixster.com\/movie\/11\/17\/26\/11172647_det.jpg",
+        "original": "http:\/\/content9.flixster.com\/movie\/11\/17\/26\/11172647_ori.jpg"
+      },
+      "abridged_cast": [
+        {
+          "name": "Ashley Tisdale",
+          "id": "171852650",
+          "characters": [
+            "Jody"
+          ]
+        },
+        {
+          "name": "Simon Rex",
+          "id": "326396232"
+        },
+        {
+          "name": "Erica Ash",
+          "id": "770794869"
+        },
+        {
+          "name": "Katrina Bowden",
+          "id": "770791690"
+        },
+        {
+          "name": "Terry Crews",
+          "id": "326392465"
+        }
+      ],
+      "alternate_ids": {
+        "imdb": "0795461"
+      },
+      "links": {
+        "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/770771666.json",
+        "alternate": "http:\/\/www.rottentomatoes.com\/m\/scary_movie_5\/",
+        "cast": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/770771666\/cast.json",
+        "clips": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/770771666\/clips.json",
+        "reviews": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/770771666\/reviews.json",
+        "similar": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/movies\/770771666\/similar.json"
+      }
+    }
+  ],
+  "links": {
+    "self": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/new_releases.json?page_limit=16&country=us&page=1",
+    "next": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/new_releases.json?page_limit=16&country=us&page=2",
+    "alternate": "http:\/\/www.rottentomatoes.com\/dvd\/new_releases.php"
+  },
+  "link_template": "http:\/\/api.rottentomatoes.com\/api\/public\/v1.0\/lists\/dvds\/new_releases.json?page_limit={results-per-page}&page={page-number}&country={country-code}"
+}

@@ -2,11 +2,14 @@ class MoviesController < ApplicationController
   before_filter :load_wanted_movie_ids
 
   def show
-    @movie = rotten_tomatoes.find_movie(params[:id])
+    @movie = Movie.find(params[:id])
   end
 
   def search
-    @movies = []
-    @movies = rotten_tomatoes.search_movies(params[:q]) if params[:q].present?
+    if params[:q].present?
+      @movies = Movie.search(params[:q])
+    else
+      @movies = []
+    end
   end
 end

@@ -8,12 +8,6 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.for(:sign_up) << :name
   end
 
-  def rotten_tomatoes
-    RottenTomatoes::Client.new do |config|
-      config.api_key = ENV['ROTTEN_TOMATOES_API_KEY']
-    end
-  end
-
   def store_location
     session[:return_to] = request.url
   end

@@ -1,5 +1,6 @@
 module RottenTomatoes
 
-  class Base < RecursiveOpenStruct; end
+  class Base < RecursiveOpenStruct
+  end
 
 end

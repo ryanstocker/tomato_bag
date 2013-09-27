@@ -17,7 +17,8 @@ describe FlaggedMoviesController do
 
     before do
       sign_in brutus
-      RottenTomatoes::Client.any_instance.stub(:find_movie).and_return(movie)
+      RottenTomatoes::Client.any_instance.stub(:find_movie).and_return(mock_movie_attributes)
+      Movie.any_instance.stub(:find_movie).and_return(movie)
     end
 
     describe "GET 'wanted'" do

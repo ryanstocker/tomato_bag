@@ -11,7 +11,7 @@ class FlaggedMoviesController < ApplicationController
 
   def create
     params[:state] ||= 'wanted'
-    movie = rotten_tomatoes.find_movie(params[:movie_id])
+    movie = Movie.find(params[:movie_id])
     @flagged_movie = current_user.flagged_movies.build(state: params[:state], rt_movie_id: movie.id,
                                       rt_imdb_id: movie.imbd_id, poster_detailed_url: movie.poster,
                                       poster_original_url: movie.poster_large, title: movie.title)

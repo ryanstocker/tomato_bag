@@ -33,29 +33,24 @@ module RottenTomatoes
     end
 
     def new_dvd_releases(page_limit=48, page=1, country="US")
-      convert_to_movie_array(get_url_as_json(new_dvds_url(page_limit,page)))
+      get_url_as_json(new_dvds_url(page_limit,page))
     end
 
     def upcoming_dvd_releases(page_limit=48, page=1, country="US")
-      convert_to_movie_array(get_url_as_json(upcoming_dvds_url(page_limit,page)))
+      get_url_as_json(upcoming_dvds_url(page_limit,page))
     end
 
     def search_movies(q)
-      convert_to_movie_array(get_url_as_json(movie_search_url(q)))
+      get_url_as_json(movie_search_url(q))
     end
 
     # http://api.rottentomatoes.com/api/public/v1.0/movies/770672122.json?apikey=
     def find_movie(id)
       data = get_url_as_json(movie_info_url(id))
-      data.present? ? Movie.new(data) : nil
     end
 
 
       private
-
-      def convert_to_movie_array(data)
-        data['movies'].present? ? data['movies'].map {|m| Movie.new(m)} : []
-      end
 
       def movie_search_url(q="")
         @movie_info_url + ".json?apikey=#{api_key}&q=#{CGI.escape(q)}"
