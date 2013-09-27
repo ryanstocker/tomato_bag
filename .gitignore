@@ -15,3 +15,6 @@
 /log/*.log
 /tmp
 /coverage
+
+# API keys
+config/initializers/api_keys.rb
