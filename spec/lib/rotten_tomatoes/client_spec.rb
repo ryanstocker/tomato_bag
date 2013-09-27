@@ -96,10 +96,13 @@ describe RottenTomatoes::Client do
 
   context 'movies' do
 
-    let(:movie_id)        { 770672122 } #Toy Story 3
-    let(:movie_info_url)  { "http://api.rottentomatoes.com/api/public/v1.0/movies/#{movie_id}.json?apikey=123" }
-    let(:toy_story_3)     { File.read('spec/fixtures/movies/toy_story_3.json') }
-    let(:movie)           { rt.find_movie(movie_id) }
+    let(:movie_id)            { 770672122 } #Toy Story 3
+    let(:movie_info_url)      { "http://api.rottentomatoes.com/api/public/v1.0/movies/#{movie_id}.json?apikey=123" }
+    let(:toy_story_3)         { File.read('spec/fixtures/movies/toy_story_3.json') }
+    let(:movie)               { rt.find_movie(movie_id) }
+    let(:similar_movie_url)   { "http://api.rottentomatoes.com/api/public/v1.0/movies/#{movie_id}/similar.json?apikey=123" }
+    let(:similar_to_toy_story_3)    { File.read('spec/fixtures/similar_to_toy_story_3.json') }
+    let(:similar_movies)       { rt.find_similar_movies(movie_id) }
 
     describe 'getting info for a single movie' do
 
@@ -124,6 +127,24 @@ describe RottenTomatoes::Client do
 
       it 'should have an imdb id' do
         movie['alternate_ids']['imdb'].should_not be_nil
+      end
+    end
+
+    describe 'similar movies' do
+
+      before(:each) do
+        stub_request(:get,
+                      similar_movie_url
+                    ).to_return(status: 200, body: similar_to_toy_story_3)
+      end
+
+      it 'should use the correct URI' do
+        rt.find_similar_movies(movie_id)
+        WebMock.should have_requested(:get, similar_movie_url)
+      end
+
+      it 'should return Up' do
+        similar_movies['movies'].first['title'].should == "Up"
       end
     end
   end

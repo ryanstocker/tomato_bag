@@ -49,6 +49,10 @@ module RottenTomatoes
       data = get_url_as_json(movie_info_url(id))
     end
 
+    def find_similar_movies(id)
+      data = get_url_as_json(similar_movies_url(id))
+    end
+
 
       private
 
@@ -58,6 +62,10 @@ module RottenTomatoes
 
       def movie_info_url(id)
         @movie_info_url + "/#{id}.json?apikey=#{api_key}"
+      end
+
+      def similar_movies_url(id)
+        @movie_info_url + "/#{id}/similar.json?apikey=#{api_key}"
       end
 
       def new_dvds_url(page_limit=16, page=1)

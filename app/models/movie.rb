@@ -9,7 +9,8 @@ class Movie < RottenTomatoes::Base
   end
 
   def self.search(q)
-    movie_json(__method__)
+    #movie_json(__method__)
+    convert_to_movie_array(rotten_tomatoes_client.search_movies(q))
   end
 
   def self.convert_to_movie_array(data)
@@ -24,7 +25,7 @@ class Movie < RottenTomatoes::Base
     convert_to_movie_array(rotten_tomatoes_client.send(method, 48))
   end
 
-  def self.upcoming_releases(page=1)
+  def self.upcoming_dvd_releases(page=1)
     movie_json(__method__)
   end
 
@@ -34,6 +35,11 @@ class Movie < RottenTomatoes::Base
 
   def self.top_ten(release_type)
     sort_by_rating(release_type)[0..9]
+  end
+
+  def similar_movies
+    movie_data = self.class.rotten_tomatoes_client.find_similar_movies(id)
+    self.class.convert_to_movie_array(movie_data)
   end
 
   def imdb_id

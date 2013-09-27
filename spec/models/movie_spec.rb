@@ -41,6 +41,18 @@ describe Movie do
     end
   end
 
+  describe ".similar_movies" do
+    before do
+      data = JSON.parse(File.read('spec/fixtures/similar_to_toy_story_3.json'))
+      RottenTomatoes::Client.any_instance.should_receive(:find_similar_movies).and_return(data)
+    end
+
+    it "returns similar movies for the movie" do
+      similar_movies = movie.similar_movies
+      similar_movies.first.title.should eq("Up")
+    end
+  end
+
   describe '#top_ten_dvd_releases' do
     let(:sorted_movies) {Movie.sort_by_rating(:new_dvd_releases).map(&:ratings).map(&:critics_score)}
 

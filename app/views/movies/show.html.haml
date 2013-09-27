@@ -18,3 +18,5 @@
     = freshness(@movie)
 .row
   .large-4.large-offset-8.columns
+    - @movie.similar_movies.each do |movie|
+      = render 'movies/movie', movie: movie, wanted_movie_ids: @wanted_movie_ids
