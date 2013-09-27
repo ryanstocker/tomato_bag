@@ -8,3 +8,4 @@
         =" Wanted"
       - else
         = link_to 'Bag!', flagged_movies_path(movie_id: movie.id), method: :post, class: 'small button success'
+      = freshness(movie)
