@@ -9,7 +9,8 @@ TomatoBag::Application.routes.draw do
     collection do
       get 'new_releases'
       get 'upcoming_releases'
-      get 'top_ten'
+      get 'top_ten_new_releases'
+      get 'top_ten_upcoming_releases'
     end
   end
 

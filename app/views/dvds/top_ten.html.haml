@@ -1,0 +1,5 @@
+%h2 Top Ten #{@release_type} Releases DVDs
+
+%ul.small-block-grid-2.large-block-grid-4
+  - @movies.each do |movie|
+    = render 'movies/movie', movie: movie, wanted_movie_ids: @wanted_movie_ids

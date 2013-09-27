@@ -10,6 +10,12 @@
       %li= link_to 'Available Now', new_releases_dvds_url
       %li.divider.hide-for-small
       %li= link_to 'Available Soon', upcoming_releases_dvds_url
+      %li.divider.hide-for-small
+      %li.has-dropdown.not-click
+        %a{href: '#'} Top Tens
+        %ul.dropdown
+          %li= link_to 'New DVD releases', top_ten_new_releases_dvds_path
+          %li= link_to 'Upcoming DVD releases',top_ten_upcoming_releases_dvds_path
       - if user_signed_in?
         %li.divider.hide-for-small
         %li.has-dropdown.not-click
